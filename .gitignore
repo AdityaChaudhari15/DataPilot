@@ -1,0 +1,8 @@
+.env
+results/
+figures/
+__pycache__/
+.venv/
+RENAME_COMPLETE
+EXPERIMENT_ATTEMPTS_LOG
+FINAL_DATA_REPORT

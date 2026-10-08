@@ -1,0 +1,338 @@
+[
+ {
+  "task_id": "GS_03_1300",
+  "suite": "gen_sequential",
+  "level": 3,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 1200. Apply these changes strictly in order, each applied to the result of the previous step: increase by 10%; then decrease by 20%; then increase by 25%. What is the final value?",
+  "expected": {
+   "final_value": 1320.0
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GS_03_1301",
+  "suite": "gen_sequential",
+  "level": 3,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 1500. Apply these changes strictly in order, each applied to the result of the previous step: decrease by 12%; then increase by 25%; then increase by 12%. What is the final value?",
+  "expected": {
+   "final_value": 1848.0
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GS_06_1600",
+  "suite": "gen_sequential",
+  "level": 6,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 800. Apply these changes strictly in order, each applied to the result of the previous step: increase by 10%; then decrease by 20%; then increase by 20%; then decrease by 25%; then increase by 8%; then decrease by 15%. What is the final value?",
+  "expected": {
+   "final_value": 581.64
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GS_06_1601",
+  "suite": "gen_sequential",
+  "level": 6,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 1500. Apply these changes strictly in order, each applied to the result of the previous step: decrease by 12%; then decrease by 25%; then decrease by 15%; then decrease by 10%; then increase by 15%; then decrease by 25%. What is the final value?",
+  "expected": {
+   "final_value": 653.21
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GS_10_2000",
+  "suite": "gen_sequential",
+  "level": 10,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 1500. Apply these changes strictly in order, each applied to the result of the previous step: increase by 5%; then decrease by 25%; then increase by 25%; then decrease by 25%; then increase by 20%; then decrease by 25%; then increase by 25%; then decrease by 20%; then increase by 10%; then increase by 12%. What is the final value?",
+  "expected": {
+   "final_value": 1227.91
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GS_10_2001",
+  "suite": "gen_sequential",
+  "level": 10,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 2000. Apply these changes strictly in order, each applied to the result of the previous step: increase by 5%; then decrease by 5%; then decrease by 15%; then decrease by 15%; then increase by 8%; then decrease by 10%; then increase by 5%; then decrease by 5%; then increase by 8%; then increase by 20%. What is the final value?",
+  "expected": {
+   "final_value": 1811.19
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GS_15_2500",
+  "suite": "gen_sequential",
+  "level": 15,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 800. Apply these changes strictly in order, each applied to the result of the previous step: decrease by 8%; then decrease by 10%; then increase by 5%; then increase by 8%; then increase by 5%; then increase by 12%; then decrease by 8%; then decrease by 10%; then decrease by 15%; then decrease by 12%; then increase by 15%; then decrease by 25%; then decrease by 5%; then decrease by 15%; then decrease by 15%. What is the final value?",
+  "expected": {
+   "final_value": 323.89
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GS_15_2501",
+  "suite": "gen_sequential",
+  "level": 15,
+  "category": "sequential_chain",
+  "prompt": "A quantity starts at 1000. Apply these changes strictly in order, each applied to the result of the previous step: increase by 10%; then decrease by 5%; then increase by 5%; then decrease by 8%; then increase by 15%; then decrease by 10%; then increase by 15%; then decrease by 12%; then increase by 8%; then decrease by 12%; then increase by 10%; then decrease by 10%; then increase by 25%; then decrease by 12%; then increase by 12%. What is the final value?",
+  "expected": {
+   "final_value": 1225.65
+  },
+  "tol": 0.05,
+  "tags": [
+   "sequential",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_03x06_1300",
+  "suite": "gen_breadth",
+  "level": 18,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=28, unit_price=9.99\n  item 2: units=30, unit_price=4.5\n  item 3: units=47, unit_price=15.0\n  item 4: units=5, unit_price=9.99\n  item 5: units=30, unit_price=4.5\n  item 6: units=39, unit_price=15.0\nGroup G2:\n  item 1: units=28, unit_price=15.0\n  item 2: units=45, unit_price=22.4\n  item 3: units=13, unit_price=9.99\n  item 4: units=49, unit_price=12.5\n  item 5: units=24, unit_price=7.25\n  item 6: units=27, unit_price=15.0\nGroup G3:\n  item 1: units=28, unit_price=4.5\n  item 2: units=27, unit_price=9.99\n  item 3: units=33, unit_price=7.25\n  item 4: units=7, unit_price=12.5\n  item 5: units=56, unit_price=9.99\n  item 6: units=43, unit_price=7.25",
+  "expected": {
+   "best_group": [
+    "g2"
+   ],
+   "total_revenue": 6232.71
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_03x06_1301",
+  "suite": "gen_breadth",
+  "level": 18,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=58, unit_price=12.5\n  item 2: units=36, unit_price=9.99\n  item 3: units=52, unit_price=4.5\n  item 4: units=60, unit_price=4.5\n  item 5: units=21, unit_price=12.5\n  item 6: units=12, unit_price=12.5\nGroup G2:\n  item 1: units=26, unit_price=4.5\n  item 2: units=40, unit_price=15.0\n  item 3: units=17, unit_price=12.5\n  item 4: units=21, unit_price=12.5\n  item 5: units=32, unit_price=4.5\n  item 6: units=38, unit_price=4.5\nGroup G3:\n  item 1: units=35, unit_price=15.0\n  item 2: units=40, unit_price=9.99\n  item 3: units=42, unit_price=7.25\n  item 4: units=24, unit_price=12.5\n  item 5: units=17, unit_price=9.99\n  item 6: units=17, unit_price=12.5",
+  "expected": {
+   "best_group": [
+    "g1"
+   ],
+   "total_revenue": 5419.57
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_06x06_1600",
+  "suite": "gen_breadth",
+  "level": 36,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=5, unit_price=9.99\n  item 2: units=39, unit_price=7.25\n  item 3: units=51, unit_price=12.5\n  item 4: units=52, unit_price=22.4\n  item 5: units=40, unit_price=12.5\n  item 6: units=54, unit_price=12.5\nGroup G2:\n  item 1: units=17, unit_price=4.5\n  item 2: units=7, unit_price=15.0\n  item 3: units=36, unit_price=9.99\n  item 4: units=24, unit_price=9.99\n  item 5: units=7, unit_price=7.25\n  item 6: units=20, unit_price=9.99\nGroup G3:\n  item 1: units=55, unit_price=12.5\n  item 2: units=41, unit_price=12.5\n  item 3: units=56, unit_price=9.99\n  item 4: units=25, unit_price=9.99\n  item 5: units=6, unit_price=12.5\n  item 6: units=54, unit_price=12.5\nGroup G4:\n  item 1: units=42, unit_price=7.25\n  item 2: units=11, unit_price=4.5\n  item 3: units=48, unit_price=4.5\n  item 4: units=8, unit_price=12.5\n  item 5: units=46, unit_price=12.5\n  item 6: units=39, unit_price=4.5\nGroup G5:\n  item 1: units=7, unit_price=12.5\n  item 2: units=41, unit_price=22.4\n  item 3: units=20, unit_price=22.4\n  item 4: units=36, unit_price=4.5\n  item 5: units=51, unit_price=22.4\n  item 6: units=7, unit_price=22.4\nGroup G6:\n  item 1: units=9, unit_price=22.4\n  item 2: units=40, unit_price=9.99\n  item 3: units=54, unit_price=4.5\n  item 4: units=38, unit_price=12.5\n  item 5: units=26, unit_price=15.0\n  item 6: units=31, unit_price=15.0",
+  "expected": {
+   "best_group": [
+    "g1"
+   ],
+   "total_revenue": 13610.44
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_06x06_1601",
+  "suite": "gen_breadth",
+  "level": 36,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=30, unit_price=12.5\n  item 2: units=54, unit_price=22.4\n  item 3: units=58, unit_price=9.99\n  item 4: units=51, unit_price=15.0\n  item 5: units=58, unit_price=7.25\n  item 6: units=16, unit_price=9.99\nGroup G2:\n  item 1: units=30, unit_price=15.0\n  item 2: units=23, unit_price=4.5\n  item 3: units=56, unit_price=15.0\n  item 4: units=38, unit_price=9.99\n  item 5: units=44, unit_price=9.99\n  item 6: units=16, unit_price=12.5\nGroup G3:\n  item 1: units=33, unit_price=9.99\n  item 2: units=58, unit_price=7.25\n  item 3: units=36, unit_price=22.4\n  item 4: units=50, unit_price=9.99\n  item 5: units=25, unit_price=9.99\n  item 6: units=40, unit_price=7.25\nGroup G4:\n  item 1: units=57, unit_price=4.5\n  item 2: units=24, unit_price=4.5\n  item 3: units=37, unit_price=9.99\n  item 4: units=33, unit_price=9.99\n  item 5: units=8, unit_price=12.5\n  item 6: units=59, unit_price=9.99\nGroup G5:\n  item 1: units=52, unit_price=9.99\n  item 2: units=41, unit_price=12.5\n  item 3: units=39, unit_price=12.5\n  item 4: units=45, unit_price=9.99\n  item 5: units=32, unit_price=22.4\n  item 6: units=59, unit_price=12.5\nGroup G6:\n  item 1: units=47, unit_price=15.0\n  item 2: units=14, unit_price=9.99\n  item 3: units=32, unit_price=4.5\n  item 4: units=60, unit_price=7.25\n  item 5: units=42, unit_price=22.4\n  item 6: units=49, unit_price=15.0",
+  "expected": {
+   "best_group": [
+    "g1"
+   ],
+   "total_revenue": 16794.06
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_10x06_2000",
+  "suite": "gen_breadth",
+  "level": 60,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=33, unit_price=4.5\n  item 2: units=54, unit_price=12.5\n  item 3: units=54, unit_price=9.99\n  item 4: units=50, unit_price=7.25\n  item 5: units=41, unit_price=22.4\n  item 6: units=13, unit_price=12.5\nGroup G2:\n  item 1: units=17, unit_price=22.4\n  item 2: units=14, unit_price=15.0\n  item 3: units=47, unit_price=15.0\n  item 4: units=50, unit_price=9.99\n  item 5: units=27, unit_price=15.0\n  item 6: units=32, unit_price=4.5\nGroup G3:\n  item 1: units=18, unit_price=22.4\n  item 2: units=55, unit_price=4.5\n  item 3: units=43, unit_price=22.4\n  item 4: units=42, unit_price=22.4\n  item 5: units=33, unit_price=7.25\n  item 6: units=9, unit_price=22.4\nGroup G4:\n  item 1: units=7, unit_price=7.25\n  item 2: units=51, unit_price=12.5\n  item 3: units=49, unit_price=4.5\n  item 4: units=42, unit_price=22.4\n  item 5: units=19, unit_price=15.0\n  item 6: units=12, unit_price=9.99\nGroup G5:\n  item 1: units=34, unit_price=12.5\n  item 2: units=8, unit_price=9.99\n  item 3: units=37, unit_price=7.25\n  item 4: units=17, unit_price=12.5\n  item 5: units=34, unit_price=15.0\n  item 6: units=7, unit_price=4.5\nGroup G6:\n  item 1: units=23, unit_price=4.5\n  item 2: units=46, unit_price=9.99\n  item 3: units=55, unit_price=15.0\n  item 4: units=43, unit_price=4.5\n  item 5: units=12, unit_price=4.5\n  item 6: units=11, unit_price=4.5\nGroup G7:\n  item 1: units=37, unit_price=12.5\n  item 2: units=19, unit_price=7.25\n  item 3: units=17, unit_price=15.0\n  item 4: units=5, unit_price=4.5\n  item 5: units=12, unit_price=7.25\n  item 6: units=46, unit_price=7.25\nGroup G8:\n  item 1: units=24, unit_price=7.25\n  item 2: units=40, unit_price=15.0\n  item 3: units=10, unit_price=15.0\n  item 4: units=41, unit_price=15.0\n  item 5: units=59, unit_price=15.0\n  item 6: units=46, unit_price=7.25\nGroup G9:\n  item 1: units=55, unit_price=7.25\n  item 2: units=43, unit_price=4.5\n  item 3: units=33, unit_price=9.99\n  item 4: units=8, unit_price=9.99\n  item 5: units=58, unit_price=4.5\n  item 6: units=14, unit_price=12.5\nGroup G10:\n  item 1: units=23, unit_price=12.5\n  item 2: units=39, unit_price=12.5\n  item 3: units=52, unit_price=12.5\n  item 4: units=14, unit_price=22.4\n  item 5: units=17, unit_price=4.5\n  item 6: units=19, unit_price=4.5",
+  "expected": {
+   "best_group": [
+    "g3"
+   ],
+   "total_revenue": 21007.04
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_10x06_2001",
+  "suite": "gen_breadth",
+  "level": 60,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=42, unit_price=4.5\n  item 2: units=28, unit_price=4.5\n  item 3: units=10, unit_price=22.4\n  item 4: units=43, unit_price=15.0\n  item 5: units=7, unit_price=15.0\n  item 6: units=52, unit_price=22.4\nGroup G2:\n  item 1: units=45, unit_price=7.25\n  item 2: units=44, unit_price=4.5\n  item 3: units=21, unit_price=12.5\n  item 4: units=14, unit_price=4.5\n  item 5: units=46, unit_price=12.5\n  item 6: units=10, unit_price=9.99\nGroup G3:\n  item 1: units=15, unit_price=12.5\n  item 2: units=35, unit_price=22.4\n  item 3: units=59, unit_price=9.99\n  item 4: units=24, unit_price=12.5\n  item 5: units=31, unit_price=7.25\n  item 6: units=35, unit_price=12.5\nGroup G4:\n  item 1: units=21, unit_price=22.4\n  item 2: units=50, unit_price=4.5\n  item 3: units=34, unit_price=12.5\n  item 4: units=20, unit_price=22.4\n  item 5: units=44, unit_price=12.5\n  item 6: units=13, unit_price=7.25\nGroup G5:\n  item 1: units=58, unit_price=15.0\n  item 2: units=15, unit_price=12.5\n  item 3: units=18, unit_price=7.25\n  item 4: units=38, unit_price=9.99\n  item 5: units=39, unit_price=12.5\n  item 6: units=47, unit_price=9.99\nGroup G6:\n  item 1: units=54, unit_price=22.4\n  item 2: units=5, unit_price=4.5\n  item 3: units=31, unit_price=9.99\n  item 4: units=15, unit_price=22.4\n  item 5: units=51, unit_price=22.4\n  item 6: units=27, unit_price=15.0\nGroup G7:\n  item 1: units=29, unit_price=15.0\n  item 2: units=56, unit_price=15.0\n  item 3: units=26, unit_price=9.99\n  item 4: units=11, unit_price=12.5\n  item 5: units=7, unit_price=4.5\n  item 6: units=22, unit_price=9.99\nGroup G8:\n  item 1: units=52, unit_price=15.0\n  item 2: units=56, unit_price=12.5\n  item 3: units=28, unit_price=7.25\n  item 4: units=53, unit_price=4.5\n  item 5: units=40, unit_price=22.4\n  item 6: units=33, unit_price=4.5\nGroup G9:\n  item 1: units=28, unit_price=22.4\n  item 2: units=57, unit_price=7.25\n  item 3: units=25, unit_price=7.25\n  item 4: units=29, unit_price=7.25\n  item 5: units=15, unit_price=22.4\n  item 6: units=16, unit_price=4.5\nGroup G10:\n  item 1: units=17, unit_price=7.25\n  item 2: units=41, unit_price=22.4\n  item 3: units=38, unit_price=4.5\n  item 4: units=53, unit_price=7.25\n  item 5: units=37, unit_price=7.25\n  item 6: units=7, unit_price=15.0",
+  "expected": {
+   "best_group": [
+    "g6"
+   ],
+   "total_revenue": 23363.72
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_14x06_2400",
+  "suite": "gen_breadth",
+  "level": 84,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=9, unit_price=4.5\n  item 2: units=36, unit_price=4.5\n  item 3: units=7, unit_price=9.99\n  item 4: units=58, unit_price=15.0\n  item 5: units=14, unit_price=22.4\n  item 6: units=50, unit_price=22.4\nGroup G2:\n  item 1: units=12, unit_price=22.4\n  item 2: units=45, unit_price=12.5\n  item 3: units=35, unit_price=4.5\n  item 4: units=58, unit_price=7.25\n  item 5: units=52, unit_price=7.25\n  item 6: units=9, unit_price=7.25\nGroup G3:\n  item 1: units=26, unit_price=7.25\n  item 2: units=46, unit_price=15.0\n  item 3: units=54, unit_price=4.5\n  item 4: units=43, unit_price=12.5\n  item 5: units=45, unit_price=15.0\n  item 6: units=14, unit_price=4.5\nGroup G4:\n  item 1: units=16, unit_price=7.25\n  item 2: units=37, unit_price=7.25\n  item 3: units=50, unit_price=12.5\n  item 4: units=27, unit_price=9.99\n  item 5: units=53, unit_price=7.25\n  item 6: units=16, unit_price=12.5\nGroup G5:\n  item 1: units=48, unit_price=7.25\n  item 2: units=9, unit_price=4.5\n  item 3: units=43, unit_price=7.25\n  item 4: units=59, unit_price=4.5\n  item 5: units=23, unit_price=22.4\n  item 6: units=43, unit_price=4.5\nGroup G6:\n  item 1: units=46, unit_price=7.25\n  item 2: units=36, unit_price=9.99\n  item 3: units=49, unit_price=4.5\n  item 4: units=33, unit_price=15.0\n  item 5: units=27, unit_price=7.25\n  item 6: units=21, unit_price=4.5\nGroup G7:\n  item 1: units=33, unit_price=7.25\n  item 2: units=42, unit_price=22.4\n  item 3: units=18, unit_price=22.4\n  item 4: units=15, unit_price=9.99\n  item 5: units=13, unit_price=9.99\n  item 6: units=53, unit_price=15.0\nGroup G8:\n  item 1: units=25, unit_price=9.99\n  item 2: units=23, unit_price=22.4\n  item 3: units=29, unit_price=7.25\n  item 4: units=60, unit_price=4.5\n  item 5: units=31, unit_price=15.0\n  item 6: units=53, unit_price=15.0\nGroup G9:\n  item 1: units=45, unit_price=15.0\n  item 2: units=47, unit_price=7.25\n  item 3: units=20, unit_price=9.99\n  item 4: units=9, unit_price=22.4\n  item 5: units=21, unit_price=7.25\n  item 6: units=8, unit_price=22.4\nGroup G10:\n  item 1: units=58, unit_price=7.25\n  item 2: units=28, unit_price=7.25\n  item 3: units=23, unit_price=7.25\n  item 4: units=54, unit_price=4.5\n  item 5: units=8, unit_price=12.5\n  item 6: units=12, unit_price=9.99\nGroup G11:\n  item 1: units=37, unit_price=15.0\n  item 2: units=9, unit_price=4.5\n  item 3: units=45, unit_price=22.4\n  item 4: units=33, unit_price=15.0\n  item 5: units=18, unit_price=9.99\n  item 6: units=19, unit_price=9.99\nGroup G12:\n  item 1: units=48, unit_price=7.25\n  item 2: units=60, unit_price=7.25\n  item 3: units=36, unit_price=4.5\n  item 4: units=32, unit_price=12.5\n  item 5: units=21, unit_price=15.0\n  item 6: units=20, unit_price=9.99\nGroup G13:\n  item 1: units=53, unit_price=7.25\n  item 2: units=44, unit_price=12.5\n  item 3: units=22, unit_price=12.5\n  item 4: units=44, unit_price=15.0\n  item 5: units=41, unit_price=12.5\n  item 6: units=15, unit_price=22.4\nGroup G14:\n  item 1: units=58, unit_price=4.5\n  item 2: units=35, unit_price=22.4\n  item 3: units=53, unit_price=4.5\n  item 4: units=5, unit_price=15.0\n  item 5: units=49, unit_price=4.5\n  item 6: units=41, unit_price=12.5",
+  "expected": {
+   "best_group": [
+    "g13"
+   ],
+   "total_revenue": 29363.23
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ },
+ {
+  "task_id": "GB_14x06_2401",
+  "suite": "gen_breadth",
+  "level": 84,
+  "category": "breadth_aggregate",
+  "prompt": "Each group below lists items with units sold and unit price (revenue = units x unit price). Compute each group's total revenue, then report which group has the highest revenue and the total revenue across all groups.\n\nGroup G1:\n  item 1: units=8, unit_price=22.4\n  item 2: units=18, unit_price=7.25\n  item 3: units=54, unit_price=12.5\n  item 4: units=51, unit_price=22.4\n  item 5: units=58, unit_price=12.5\n  item 6: units=36, unit_price=9.99\nGroup G2:\n  item 1: units=59, unit_price=9.99\n  item 2: units=14, unit_price=12.5\n  item 3: units=12, unit_price=7.25\n  item 4: units=19, unit_price=9.99\n  item 5: units=43, unit_price=22.4\n  item 6: units=54, unit_price=9.99\nGroup G3:\n  item 1: units=33, unit_price=12.5\n  item 2: units=59, unit_price=12.5\n  item 3: units=55, unit_price=12.5\n  item 4: units=7, unit_price=4.5\n  item 5: units=27, unit_price=22.4\n  item 6: units=30, unit_price=15.0\nGroup G4:\n  item 1: units=33, unit_price=22.4\n  item 2: units=36, unit_price=12.5\n  item 3: units=21, unit_price=12.5\n  item 4: units=7, unit_price=22.4\n  item 5: units=45, unit_price=22.4\n  item 6: units=20, unit_price=9.99\nGroup G5:\n  item 1: units=14, unit_price=9.99\n  item 2: units=32, unit_price=7.25\n  item 3: units=59, unit_price=22.4\n  item 4: units=44, unit_price=12.5\n  item 5: units=33, unit_price=12.5\n  item 6: units=20, unit_price=22.4\nGroup G6:\n  item 1: units=31, unit_price=15.0\n  item 2: units=60, unit_price=22.4\n  item 3: units=28, unit_price=7.25\n  item 4: units=8, unit_price=12.5\n  item 5: units=17, unit_price=4.5\n  item 6: units=9, unit_price=4.5\nGroup G7:\n  item 1: units=9, unit_price=12.5\n  item 2: units=49, unit_price=22.4\n  item 3: units=36, unit_price=7.25\n  item 4: units=43, unit_price=22.4\n  item 5: units=39, unit_price=12.5\n  item 6: units=55, unit_price=4.5\nGroup G8:\n  item 1: units=59, unit_price=4.5\n  item 2: units=18, unit_price=9.99\n  item 3: units=52, unit_price=22.4\n  item 4: units=56, unit_price=15.0\n  item 5: units=33, unit_price=12.5\n  item 6: units=55, unit_price=9.99\nGroup G9:\n  item 1: units=5, unit_price=9.99\n  item 2: units=31, unit_price=9.99\n  item 3: units=49, unit_price=7.25\n  item 4: units=48, unit_price=15.0\n  item 5: units=46, unit_price=15.0\n  item 6: units=14, unit_price=22.4\nGroup G10:\n  item 1: units=11, unit_price=9.99\n  item 2: units=47, unit_price=22.4\n  item 3: units=33, unit_price=12.5\n  item 4: units=32, unit_price=9.99\n  item 5: units=13, unit_price=9.99\n  item 6: units=10, unit_price=12.5\nGroup G11:\n  item 1: units=32, unit_price=9.99\n  item 2: units=51, unit_price=9.99\n  item 3: units=20, unit_price=12.5\n  item 4: units=30, unit_price=7.25\n  item 5: units=58, unit_price=15.0\n  item 6: units=24, unit_price=12.5\nGroup G12:\n  item 1: units=60, unit_price=12.5\n  item 2: units=27, unit_price=22.4\n  item 3: units=53, unit_price=12.5\n  item 4: units=7, unit_price=4.5\n  item 5: units=27, unit_price=4.5\n  item 6: units=53, unit_price=9.99\nGroup G13:\n  item 1: units=47, unit_price=12.5\n  item 2: units=56, unit_price=9.99\n  item 3: units=12, unit_price=4.5\n  item 4: units=15, unit_price=22.4\n  item 5: units=6, unit_price=15.0\n  item 6: units=24, unit_price=9.99\nGroup G14:\n  item 1: units=43, unit_price=7.25\n  item 2: units=29, unit_price=9.99\n  item 3: units=39, unit_price=12.5\n  item 4: units=32, unit_price=9.99\n  item 5: units=7, unit_price=7.25\n  item 6: units=33, unit_price=4.5",
+  "expected": {
+   "best_group": [
+    "g8"
+   ],
+   "total_revenue": 36639.31
+  },
+  "tol": 0.05,
+  "tags": [
+   "parallelizable",
+   "long_context",
+   "generated"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "",
+  "v1_expected": null
+ }
+]

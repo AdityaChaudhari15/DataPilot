@@ -1,0 +1,8 @@
+langchain-core
+langchain-openai
+langgraph
+typing_extensions
+pandas>=2.2
+numpy
+matplotlib
+python-dotenv

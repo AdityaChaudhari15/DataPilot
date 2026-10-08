@@ -1,0 +1,2375 @@
+[
+ {
+  "task_id": "L1_01",
+  "suite": "core60",
+  "level": 1,
+  "category": "arithmetic",
+  "prompt": "Calculate 847 + 293. Use the appropriate calculation tool.",
+  "expected": {
+   "answer": 1140.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1140
+ },
+ {
+  "task_id": "L1_02",
+  "suite": "core60",
+  "level": 1,
+  "category": "arithmetic",
+  "prompt": "Calculate 936 divided by 24. Use the appropriate calculation tool.",
+  "expected": {
+   "answer": 39.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "divide"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 39
+ },
+ {
+  "task_id": "L1_03",
+  "suite": "core60",
+  "level": 1,
+  "category": "arithmetic",
+  "prompt": "Calculate 37 multiplied by 24. Use the appropriate calculation tool.",
+  "expected": {
+   "answer": 888.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 888
+ },
+ {
+  "task_id": "L1_04",
+  "suite": "core60",
+  "level": 1,
+  "category": "statistics",
+  "prompt": "Calculate the average of 18, 24, 30, 36, and 42. Use the appropriate calculation tool.",
+  "expected": {
+   "answer": 30.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_average"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 30
+ },
+ {
+  "task_id": "L1_05",
+  "suite": "core60",
+  "level": 1,
+  "category": "arithmetic",
+  "prompt": "Subtract 275 from 940. Use the appropriate calculation tool.",
+  "expected": {
+   "answer": 665.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 665
+ },
+ {
+  "task_id": "L1_06",
+  "suite": "core60",
+  "level": 1,
+  "category": "statistics",
+  "prompt": "Calculate the average of 12, 18, 24, and 30.",
+  "expected": {
+   "answer": 21.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_average"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 21
+ },
+ {
+  "task_id": "L1_07",
+  "suite": "core60",
+  "level": 1,
+  "category": "arithmetic",
+  "prompt": "A company's monthly support tickets increased from 120 to 165. Calculate the increase.",
+  "expected": {
+   "answer": 45.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 45
+ },
+ {
+  "task_id": "L1_08",
+  "suite": "core60",
+  "level": 1,
+  "category": "arithmetic",
+  "prompt": "A dataset contains 125 records in one batch and 275 records in another. Calculate the combined number of records.",
+  "expected": {
+   "answer": 400.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 400
+ },
+ {
+  "task_id": "L1_09",
+  "suite": "core60",
+  "level": 1,
+  "category": "statistics",
+  "prompt": "The response times for five requests were 10, 20, 30, 40, and 50 milliseconds. Calculate the average response time.",
+  "expected": {
+   "answer": 30.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_average"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 30
+ },
+ {
+  "task_id": "L1_10",
+  "suite": "core60",
+  "level": 1,
+  "category": "arithmetic",
+  "prompt": "A system processed 720 requests over 12 hours. Calculate the average number of requests processed per hour.",
+  "expected": {
+   "answer": 60.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "divide"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 60
+ },
+ {
+  "task_id": "L2_01",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A product costs $240. Apply a 15% discount, then add $20 shipping. What is the final price?",
+  "expected": {
+   "answer": 224.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract",
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "subtract",
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 224
+ },
+ {
+  "task_id": "L2_02",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A company has 480 employees. 35% work remotely. Of the remote employees, 25% are managers. How many remote employees are non-managers?",
+  "expected": {
+   "answer": 126.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 126
+ },
+ {
+  "task_id": "L2_03",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A project has four stages taking 4, 7, 5, and 3 days. A 2-day delay is added after the longest stage. What is the total project duration?",
+  "expected": {
+   "answer": 21.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 21
+ },
+ {
+  "task_id": "L2_04",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A store sells 120 units on Monday, 150 on Tuesday, and 180 on Wednesday. Thursday sales are 20% higher than Wednesday. What are the total sales for all four days?",
+  "expected": {
+   "answer": 666.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 666
+ },
+ {
+  "task_id": "L2_05",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A server handles 1,200 requests per minute. During a peak period, traffic increases by 25%. How many requests per minute must the server handle during the peak?",
+  "expected": {
+   "answer": 1500.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1500
+ },
+ {
+  "task_id": "L2_06",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A dataset initially contains 2,000 records. 15% are removed as duplicates, and then 120 new records are added. How many records remain?",
+  "expected": {
+   "answer": 1820.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract",
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "subtract",
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1820
+ },
+ {
+  "task_id": "L2_07",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "Three teams completed 18, 24, and 30 tasks respectively. The team with the highest output is assigned 20% additional tasks. What is its new task count?",
+  "expected": {
+   "answer": 36.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 36
+ },
+ {
+  "task_id": "L2_08",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A service has 800 users. 40% are premium users. Of the premium users, 30% use an advanced feature. How many premium users do not use the advanced feature?",
+  "expected": {
+   "answer": 224.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 224
+ },
+ {
+  "task_id": "L2_09",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A project budget is $50,000. Development uses 45%, testing uses 20%, and the remaining budget is allocated to deployment. How much is allocated to deployment?",
+  "expected": {
+   "answer": 17500.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "add",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 17500
+ },
+ {
+  "task_id": "L2_10",
+  "suite": "core60",
+  "level": 2,
+  "category": "multi_step_calculation",
+  "prompt": "A company's monthly revenue is $80,000. Revenue increases by 10% in month two and decreases by 5% from the month-two value in month three. What is the month-three revenue?",
+  "expected": {
+   "answer": 83600.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "add",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 83600
+ },
+ {
+  "task_id": "L3_01",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "A team tested three models. Model A achieved 82% accuracy, Model B achieved 87%, and Model C achieved 84%. Which model performed best, and by how many percentage points did it outperform the second-best model?",
+  "expected": {
+   "best_model": [
+    "model b"
+   ],
+   "difference": 3.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "find_max",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "best_model": "Model B",
+   "difference": 3
+  }
+ },
+ {
+  "task_id": "L3_02",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "A dataset contains 2,400 records. 1,500 are training records and 600 are validation records. How many records are left for testing, and what percentage of the full dataset do they represent?",
+  "expected": {
+   "testing_records": 300.0,
+   "percentage": 12.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "subtract",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "testing_records": 300,
+   "percentage": 12.5
+  }
+ },
+ {
+  "task_id": "L3_03",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "Three experiments produced average processing times of 120 ms, 95 ms, and 110 ms. Which experiment was fastest, and how much faster was it than the slowest experiment?",
+  "expected": {
+   "fastest": 95.0,
+   "difference": 25.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "find_min",
+   "find_max",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "fastest": 95,
+   "difference": 25
+  }
+ },
+ {
+  "task_id": "L3_04",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "A company recorded monthly support tickets of 420, 380, 510, and 290. Calculate the average number of tickets and identify whether the maximum month exceeded the average by more than 20%.",
+  "expected": {
+   "average": 400.0,
+   "maximum": 510.0,
+   "exceeds_20_percent": [
+    "yes"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average",
+   "find_max",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "average": 400,
+   "maximum": 510,
+   "exceeds_20_percent": "yes"
+  }
+ },
+ {
+  "task_id": "L3_05",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "A model processed 8,000 records. System A produced 7,600 valid records, while System B produced 7,200 valid records. Which system has the higher validity rate, and what is the percentage-point difference?",
+  "expected": {
+   "better_system": [
+    "system a"
+   ],
+   "difference": 5.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_percentage",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "better_system": "System A",
+   "difference": 5
+  }
+ },
+ {
+  "task_id": "L3_06",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "Four models have scores of 71, 84, 79, and 84. What is the maximum score, and are there multiple models sharing that maximum?",
+  "expected": {
+   "maximum": 84.0,
+   "multiple": [
+    "yes"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "find_max"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "maximum": 84,
+   "multiple": "yes"
+  }
+ },
+ {
+  "task_id": "L3_07",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "A dataset has 900 observations. 360 belong to Category A, 270 to Category B, and the remaining observations belong to Category C. What percentage of the dataset belongs to Category C?",
+  "expected": {
+   "category_c": 270.0,
+   "percentage": 30.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "subtract",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "category_c": 270,
+   "percentage": 30
+  }
+ },
+ {
+  "task_id": "L3_08",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "Model X has an accuracy of 91% on Dataset A and 76% on Dataset B. Model Y has 88% on Dataset A and 81% on Dataset B. Which model has the higher average accuracy across the two datasets?",
+  "expected": {
+   "better_model": [
+    "model y"
+   ],
+   "average_x": 83.5,
+   "average_y": 84.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "better_model": "Model Y",
+   "average_x": 83.5,
+   "average_y": 84.5
+  }
+ },
+ {
+  "task_id": "L3_09",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "A service handled 1,200 requests in one hour. Endpoint A handled 450, Endpoint B handled 300, and Endpoint C handled the remainder. What percentage of requests were handled by Endpoint C?",
+  "expected": {
+   "endpoint_c": 450.0,
+   "percentage": 37.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "subtract",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "endpoint_c": 450,
+   "percentage": 37.5
+  }
+ },
+ {
+  "task_id": "L3_10",
+  "suite": "core60",
+  "level": 3,
+  "category": "analytical_reasoning",
+  "prompt": "Five experiments produced scores of 62, 74, 81, 69, and 77. Determine the average score, the highest score, and whether the highest score is at least 15% greater than the average.",
+  "expected": {
+   "average": 72.6,
+   "maximum": 81.0,
+   "exceeds_15_percent": [
+    "no"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average",
+   "find_max",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "average": 72.6,
+   "maximum": 81,
+   "exceeds_15_percent": "no"
+  }
+ },
+ {
+  "task_id": "L4_01",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "A report states: 'The average of 18, 24, and 30 is 25.' Verify the report and state the correct average.",
+  "expected": {
+   "answer": 24.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "calculate_average"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 24
+ },
+ {
+  "task_id": "L4_02",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "A product costs $500. A report claims that a 20% discount reduces the price to $410. Verify the claim and state the correct final price after the discount.",
+  "expected": {
+   "answer": 400.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 400
+ },
+ {
+  "task_id": "L4_03",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "A dataset contains 900 records. A report says 450 were used for training and 300 for validation, leaving 250 for testing. Verify the report and state the correct number of testing records.",
+  "expected": {
+   "answer": 150.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "add",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 150
+ },
+ {
+  "task_id": "L4_04",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "A system was tested three times with response times of 120 ms, 95 ms, and 110 ms. A report says the fastest response was 110 ms. Verify the claim and state the correct fastest time.",
+  "expected": {
+   "answer": 95.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "find_min"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 95
+ },
+ {
+  "task_id": "L4_05",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "Three models achieved accuracies of Model A: 80%, Model B: 75%, and Model C: 85%. A report says Model B performed best. Verify the claim and identify the best model.",
+  "expected": {
+   "answer": [
+    "model c"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "find_max"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "text",
+  "v1_expected": "Model C"
+ },
+ {
+  "task_id": "L4_06",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "A report states that 45 out of 180 records represent 20% of the dataset. Verify the claim and state the correct percentage.",
+  "expected": {
+   "answer": 25.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 25
+ },
+ {
+  "task_id": "L4_07",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "Monthly revenue is $50,000. It increases by 10% in month two and then decreases by 5% in month three. A report states that the final revenue is $52,500. Verify the report and state the correct final revenue.",
+  "expected": {
+   "answer": 52250.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 52250
+ },
+ {
+  "task_id": "L4_08",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "A team recorded sales of 120 units on Monday, 150 on Tuesday, and 130 on Wednesday. A report states that total sales were 410 units. Verify the report and state the correct total.",
+  "expected": {
+   "answer": 400.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "sum_values"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 400
+ },
+ {
+  "task_id": "L4_09",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "The values in a dataset are 14, 19, 22, and 21. A report identifies 21 as the maximum value. Verify the claim and state the correct maximum.",
+  "expected": {
+   "answer": 22.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "find_max"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 22
+ },
+ {
+  "task_id": "L4_10",
+  "suite": "core60",
+  "level": 4,
+  "category": "error_detection",
+  "prompt": "A system processed 800 records, of which 680 were valid. A report states that the validity rate was 80%. Verify the claim and state the correct validity percentage.",
+  "expected": {
+   "answer": 85.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "numeric",
+  "v1_expected": 85
+ },
+ {
+  "task_id": "L5_01",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "Two reports disagree about the average response time. Report A claims the average of 18 ms, 20 ms, and 22 ms is 22 ms. Report B claims it is 20 ms. Recalculate the average and identify which report is correct.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "calculate_average"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_02",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "A dataset contains 800 records. Report A says 30% of the records belong to the validation set and therefore there are 280 validation records. Report B says there are 240 validation records. Determine which report is supported by the data.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_03",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "Model A correctly classified 920 of 1000 cases. Model B correctly classified 450 of 500 cases. Report A says: 'Model A has the higher accuracy because 92% is greater than 90%.' Report B says: 'Model B has the higher accuracy.' Determine which report is correct.",
+  "expected": {
+   "answer": [
+    "report a"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "divide",
+    "multiply"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report A"
+ },
+ {
+  "task_id": "L5_04",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "Daily sales were 120, 150, and 130 units. Report A states that total sales were 410 units. Report B states that total sales were 400 units. Recalculate the total and identify the correct report.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "sum_values"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "add"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_05",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "A service costs $900 and receives a 5% discount. Report A says the discounted price is $850. Report B says it is $855. Determine which report is correct.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_06",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "A dataset contains 1000 records. Exactly 70% are used for training and 200 are used for validation. Report A says only 50 testing records remain. Report B says 100 testing records remain. Determine which report is correct.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_07",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "System A has a response time of 120 ms and System B has a response time of 125 ms. Report A says the difference is 10 ms. Report B says the difference is 5 ms. Determine which report is correct.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "subtract"
+  ],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_08",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "Model A correctly classified 82 of 100 samples. Model B correctly classified 41 of 50 samples. Report A claims Model A has the higher accuracy. Report B claims the models have equal accuracy. Determine which report is correct.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "calculate_percentage",
+   "compare_values"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "divide",
+    "multiply",
+    "compare_values"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_09",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "Monthly requests increased from 1200 to 1440. Report A says the increase was 10%. Report B says it was 20%. Recalculate the percentage increase and identify the correct report.",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "subtract",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "subtract",
+    "divide",
+    "multiply"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "L5_10",
+  "suite": "core60",
+  "level": 5,
+  "category": "conflicting_information",
+  "prompt": "Three models produced these results: Model A: 450 correct out of 500 cases, Model B: 880 correct out of 1000 cases, and Model C: 420 correct out of 500 cases. One report ranks A first, B second, and C third because A has the most correct predictions relative to its test set. Another report ranks B first. Determine which model actually has the highest accuracy.",
+  "expected": {
+   "answer": [
+    "model a"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "calculate_percentage",
+   "find_max"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "divide",
+    "multiply",
+    "find_max"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Model A"
+ },
+ {
+  "task_id": "L6_01",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "A dataset contains 2400 records. 1500 are used for training and 600 for validation. The remaining records are used for testing. Of the testing records, 80% pass a quality check. How many testing records pass the quality check?",
+  "expected": {
+   "answer": 240.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "subtract",
+   "multiply"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "add",
+    "subtract",
+    "multiply"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 240
+ },
+ {
+  "task_id": "L6_02",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "A company processes 5000 requests per hour. System A handles 45% of the requests and System B handles 35%. The remaining requests are handled by System C. System C improves its capacity by 20%. How many requests per hour can System C handle after the improvement?",
+  "expected": {
+   "answer": 1200.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract",
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract",
+    "multiply"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1200
+ },
+ {
+  "task_id": "L6_03",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "Three models have accuracies of 82%, 88%, and 85%. The best model is selected as the baseline. A fourth model initially achieves 79% accuracy but improves by 10% relative to its original accuracy. Does the improved fourth model exceed the baseline? State the improved accuracy.",
+  "expected": {
+   "exceeds_baseline": [
+    "no"
+   ],
+   "improved_accuracy": 86.9
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "find_max",
+   "multiply"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "find_max",
+    "calculate_percentage"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "exceeds_baseline": "No",
+   "improved_accuracy": 86.9
+  }
+ },
+ {
+  "task_id": "L6_04",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "A team completed three experiments with scores of 72, 84, and 90. The average score is used as a threshold. A new experiment scores 12% above that average. What is the new experiment's score?",
+  "expected": {
+   "answer": 91.84
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average",
+   "multiply",
+   "add"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "divide",
+    "multiply",
+    "add"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 91.84
+ },
+ {
+  "task_id": "L6_05",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "A project has a budget of $80,000. Development uses 45% of the budget. Testing uses 20% of the remaining budget after development. The rest is allocated to deployment. How much money is allocated to deployment?",
+  "expected": {
+   "answer": 35200.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 35200
+ },
+ {
+  "task_id": "L6_06",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "Five systems have response times of 140 ms, 125 ms, 110 ms, 135 ms, and 120 ms. The fastest system is improved by reducing its response time by 15%. The average response time of all five original systems is then used as a comparison threshold. By how many milliseconds is the improved fastest system below the original average?",
+  "expected": {
+   "answer": 32.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "find_min",
+   "multiply",
+   "subtract",
+   "calculate_average"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "find_min",
+    "calculate_percentage",
+    "subtract",
+    "calculate_average"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 32.5
+ },
+ {
+  "task_id": "L6_07",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "A dataset contains 4000 observations. 60% are training data. Of the remaining observations, 25% are validation data. The rest are test data. A preprocessing step removes 10% of the test data. How many test observations remain after preprocessing?",
+  "expected": {
+   "answer": 1080.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1080
+ },
+ {
+  "task_id": "L6_08",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "A company evaluates three models on two datasets. Model A scores 90% and 80%, Model B scores 85% and 88%, and Model C scores 92% and 76%. First calculate each model's average score. Then identify the model with the highest average. How many percentage points is its average above the second-highest average?",
+  "expected": {
+   "answer": 1.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average",
+   "find_max",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "divide",
+    "find_max",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1.5
+ },
+ {
+  "task_id": "L6_09",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "A service processes 1200 requests per minute. Traffic increases by 25% during peak hours. During a later optimization, peak traffic is reduced by 10%. What is the resulting requests-per-minute rate after both changes?",
+  "expected": {
+   "answer": 1350.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "add",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1350
+ },
+ {
+  "task_id": "L6_10",
+  "suite": "core60",
+  "level": 6,
+  "category": "complex_decomposition",
+  "prompt": "Four analysts completed 24, 30, 36, and 42 reports respectively. The team average is calculated. An analyst who produced the maximum number of reports is then given a 10% productivity increase. How many reports would that analyst produce after the increase, and how many more is that than the original team average?",
+  "expected": {
+   "answer": 13.2
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average",
+   "find_max",
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "divide",
+    "find_max",
+    "multiply",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 13.2
+ },
+ {
+  "task_id": "H3_01",
+  "suite": "hard14",
+  "level": 3,
+  "category": "hard_analytical_reasoning",
+  "prompt": "Three models were evaluated on datasets of different sizes. Model A achieved 84% accuracy on 500 cases, Model B achieved 86% accuracy on 400 cases, and Model C achieved 82% accuracy on 600 cases. Which model has the highest accuracy, and which model made the largest number of correct predictions?",
+  "expected": {
+   "highest_accuracy": [
+    "model b"
+   ],
+   "most_correct": [
+    "model c"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "find_max"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "divide",
+    "find_max"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "highest_accuracy": "Model B",
+   "most_correct": "Model C"
+  }
+ },
+ {
+  "task_id": "H3_02",
+  "suite": "hard14",
+  "level": 3,
+  "category": "hard_analytical_reasoning",
+  "prompt": "Five values have an average of 22: 14, 18, 21, 25, and an unknown value. Determine the unknown value and state whether it is the maximum value in the dataset.",
+  "expected": {
+   "missing_value": 32.0,
+   "is_maximum": [
+    "yes"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "add",
+   "subtract",
+   "find_max"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "subtract",
+    "find_max"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "missing_value": 32,
+   "is_maximum": "Yes"
+  }
+ },
+ {
+  "task_id": "H3_03",
+  "suite": "hard14",
+  "level": 3,
+  "category": "hard_analytical_reasoning",
+  "prompt": "A system currently completes 72% of tasks successfully. After an improvement of 15% relative to its current performance, a report claims the new success rate is 87%. Calculate the actual new success rate and determine by how many percentage points the report overstates it.",
+  "expected": {
+   "new_rate": 82.8,
+   "overstatement": 4.2
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "subtract"
+   ],
+   [
+    "calculate_percentage",
+    "add",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "new_rate": 82.8,
+   "overstatement": 4.2
+  }
+ },
+ {
+  "task_id": "H4_01",
+  "suite": "hard14",
+  "level": 4,
+  "category": "hard_error_detection",
+  "prompt": "A dataset contains 5,000 records. 60% are used for training. Of the remaining records, 30% are used for validation. A report claims that 1,550 records remain for testing. Verify the report and state the correct number of testing records.",
+  "expected": {
+   "answer": 1400.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1400
+ },
+ {
+  "task_id": "H4_02",
+  "suite": "hard14",
+  "level": 4,
+  "category": "hard_error_detection",
+  "prompt": "A company had revenue of $80,000 and costs of $64,000. Later, revenue became $100,000 and costs became $75,000. A report says the profit margin increased by 5% and profit increased by 5%. Verify both claims. State the change in profit margin in percentage points and the percentage increase in profit.",
+  "expected": {
+   "margin_change": 5.0,
+   "profit_increase": 56.25
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "subtract",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "subtract",
+    "divide",
+    "multiply"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "margin_change": 5,
+   "profit_increase": 56.25
+  }
+ },
+ {
+  "task_id": "H4_03",
+  "suite": "hard14",
+  "level": 4,
+  "category": "hard_error_detection",
+  "prompt": "A report contains two claims about response times of 120 ms, 95 ms, 110 ms, and 105 ms. Claim 1 says the average response time is 105 ms. Claim 2 says the fastest response time is 95 ms. Determine the correct average and state which claim or claims are correct.",
+  "expected": {
+   "average": 107.5,
+   "claims_correct": [
+    "claim 2"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "calculate_average",
+   "find_min"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "divide",
+    "find_min"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "average": 107.5,
+   "claims_correct": "Claim 2"
+  }
+ },
+ {
+  "task_id": "H5_01",
+  "suite": "hard14",
+  "level": 5,
+  "category": "hard_conflicting_information",
+  "prompt": "Model A achieved 95% accuracy on 100 cases in Dataset 1 and 70% accuracy on 900 cases in Dataset 2. Model B achieved 82% accuracy across 1,000 cases. Report A says Model A performed better because its simple average accuracy is 82.5%. Report B says Model B performed better based on overall accuracy across all cases. Which report is correct?",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "divide"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "add",
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "H5_02",
+  "suite": "hard14",
+  "level": 5,
+  "category": "hard_conflicting_information",
+  "prompt": "System A scores 90% on 100 cases and 60% on 900 cases. System B scores 74% on 1,000 cases. Report A ranks System A higher using the simple average of 75%. Report B ranks System B higher using overall accuracy across all cases. Which report is correct for overall accuracy?",
+  "expected": {
+   "answer": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "divide"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "add",
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report B"
+ },
+ {
+  "task_id": "H5_03",
+  "suite": "hard14",
+  "level": 5,
+  "category": "hard_conflicting_information",
+  "prompt": "A budget of $100,000 allocates 40% to development. Of the remaining budget, 30% goes to testing. Report A says deployment receives $42,000. Report B says deployment receives $60,000. Determine which report is correct.",
+  "expected": {
+   "answer": [
+    "report a"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "text",
+  "v1_expected": "Report A"
+ },
+ {
+  "task_id": "H5_04",
+  "suite": "hard14",
+  "level": 5,
+  "category": "hard_conflicting_information",
+  "prompt": "Model A has an accuracy of 92%, but the number of test cases is unknown. Model B has an accuracy of 90% on exactly 10,000 test cases. A report claims Model A must have made more correct predictions. Can that conclusion be determined from the available information?",
+  "expected": {
+   "answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine",
+    "cannot know"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "text",
+  "v1_expected": [
+   "cannot be determined",
+   "cannot be uniquely determined",
+   "cannot be determined from the information",
+   "cannot be determined from the available information",
+   "not enough information",
+   "insufficient information",
+   "impossible to determine",
+   "cannot determine"
+  ]
+ },
+ {
+  "task_id": "H6_01",
+  "suite": "hard14",
+  "level": 6,
+  "category": "hard_complex_decomposition",
+  "prompt": "A pipeline starts with 12,000 records. 50% are assigned to training, leaving the rest for later stages. Of the remaining records, 20% are assigned to validation and the rest become test records. Quality control removes 10% of the test records. Finally, 75% of the remaining test records are retained for production analysis. How many records are finally retained?",
+  "expected": {
+   "answer": 3240.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ],
+   [
+    "multiply",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 3240
+ },
+ {
+  "task_id": "H6_02",
+  "suite": "hard14",
+  "level": 6,
+  "category": "hard_complex_decomposition",
+  "prompt": "Three models were evaluated on datasets of different sizes. Model A scored 90% on 200 cases and 70% on 800 cases. Model B scored 78% on 1,000 cases. Model C scored 82% on 500 cases and 75% on 500 cases. Calculate each model's overall accuracy across its cases, identify the highest, and state by how many percentage points it exceeds the second-highest model.",
+  "expected": {
+   "answer": 0.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "divide",
+   "find_max",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "add",
+    "divide",
+    "find_max",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 0.5
+ },
+ {
+  "task_id": "H6_03",
+  "suite": "hard14",
+  "level": 6,
+  "category": "hard_complex_decomposition",
+  "prompt": "A system starts with 15,000 records. 55% pass Stage 1. Of the records that pass Stage 1, 20% fail Stage 2. Of the records that remain after Stage 2, 25% are classified as high priority. Finally, 40% of the high-priority records are selected for review. How many records are selected for review?",
+  "expected": {
+   "answer": 660.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 660
+ },
+ {
+  "task_id": "H6_04",
+  "suite": "hard14",
+  "level": 6,
+  "category": "hard_complex_decomposition",
+  "prompt": "Three datasets report model accuracies of 92%, 89%, and 95%, but the number of test cases in each dataset is not provided. A researcher asks for the combined accuracy across all three datasets. Can the combined accuracy be determined exactly from the available information?",
+  "expected": {
+   "answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine",
+    "cannot know"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "text",
+  "v1_expected": "Cannot be determined"
+ },
+ {
+  "task_id": "A7_01",
+  "suite": "adversarial12",
+  "level": 4,
+  "category": "percentage_semantics",
+  "prompt": "A system's accuracy improves from 72% to 81%. A report says the system improved by 12.5 percentage points. Another report says it improved by 9 percentage points. Determine the correct absolute improvement in percentage points and the relative percentage improvement.",
+  "expected": {
+   "percentage_point_improvement": 9.0,
+   "relative_improvement": 12.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "subtract",
+   "divide",
+   "multiply"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "subtract",
+    "calculate_percentage"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "percentage_point_improvement": 9,
+   "relative_improvement": 12.5
+  }
+ },
+ {
+  "task_id": "A7_02",
+  "suite": "adversarial12",
+  "level": 4,
+  "category": "sequential_percentage",
+  "prompt": "A service costs $1,000. Its price is increased by 20% and then discounted by 20%. A report claims the final price returns to $1,000. Determine the actual final price and state whether the report is correct.",
+  "expected": {
+   "final_price": 960.0,
+   "report": [
+    "incorrect"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "multiply"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "final_price": 960,
+   "report": "Incorrect"
+  }
+ },
+ {
+  "task_id": "A7_03",
+  "suite": "adversarial12",
+  "level": 5,
+  "category": "weighted_average",
+  "prompt": "Dataset A contains 100 cases with 90% accuracy. Dataset B contains 900 cases with 70% accuracy. A report calculates the combined accuracy as the simple average of 90% and 70%. Determine the actual combined accuracy and whether the report is correct.",
+  "expected": {
+   "combined_accuracy": 72.0,
+   "report": [
+    "incorrect"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection"
+  ],
+  "expected_tools": [
+   "multiply",
+   "add",
+   "divide"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "add",
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "combined_accuracy": 72,
+   "report": "Incorrect"
+  }
+ },
+ {
+  "task_id": "A7_04",
+  "suite": "adversarial12",
+  "level": 5,
+  "category": "irrelevant_information",
+  "prompt": "A model processes 2,000 records. It correctly classifies 1,760. The development team has 12 members, the training dataset contains 5,000 records, and the system runs on 4 GPUs. What is the model's classification accuracy?",
+  "expected": {
+   "answer": 88.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "divide",
+    "multiply"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 88
+ },
+ {
+  "task_id": "A7_05",
+  "suite": "adversarial12",
+  "level": 5,
+  "category": "insufficient_information",
+  "prompt": "Model A achieved 94% accuracy and Model B achieved 91% accuracy. The number of test cases for either model is not provided. Can we determine which model made more correct predictions?",
+  "expected": {
+   "answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine",
+    "cannot know"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "text",
+  "v1_expected": "Cannot be determined"
+ },
+ {
+  "task_id": "A7_06",
+  "suite": "adversarial12",
+  "level": 6,
+  "category": "conditional_reasoning",
+  "prompt": "A system processed 8,000 requests. It initially rejects 12% of them. A recovery process successfully restores 25% of the rejected requests. The remaining rejected requests are permanently lost. How many requests are successfully processed in total?",
+  "expected": {
+   "answer": 7280.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 7280
+ },
+ {
+  "task_id": "A7_07",
+  "suite": "adversarial12",
+  "level": 6,
+  "category": "conflicting_claims",
+  "prompt": "A company has revenue of $120,000 and operating costs of $90,000. After an improvement, revenue increases by 15% while costs increase by 10%. Report A claims profit increases by exactly 20%. Report B claims profit increases by 30%. Calculate the new profit, the actual percentage increase in profit, and identify the correct report.",
+  "expected": {
+   "new_profit": 39000.0,
+   "profit_increase": 30.0,
+   "report": [
+    "report b"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract",
+   "calculate_percentage"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "multiply",
+    "add",
+    "subtract",
+    "divide"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "new_profit": 39000,
+   "profit_increase": 30,
+   "report": "Report B"
+  }
+ },
+ {
+  "task_id": "A7_08",
+  "suite": "adversarial12",
+  "level": 6,
+  "category": "ranking_criterion",
+  "prompt": "Three models have accuracy and latency values:\nModel A: 92% accuracy, 180 ms latency.\nModel B: 89% accuracy, 120 ms latency.\nModel C: 91% accuracy, 150 ms latency.\nThe deployment rule requires accuracy of at least 90% AND latency below 160 ms. Which model or models satisfy the rule, and which satisfying model has the highest accuracy?",
+  "expected": {
+   "qualifying_models": [
+    "model c"
+   ],
+   "best_model": [
+    "model c"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "compare_values",
+   "find_max"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "find_max",
+    "compare_values"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "qualifying_models": "Model C",
+   "best_model": "Model C"
+  }
+ },
+ {
+  "task_id": "A7_09",
+  "suite": "adversarial12",
+  "level": 6,
+  "category": "anomaly_detection",
+  "prompt": "Five response times are 100 ms, 105 ms, 110 ms, 115 ms, and 300 ms. A report says the average response time represents normal system performance. Calculate the average and determine whether removing the single largest observation would reduce the average by more than 30 ms.",
+  "expected": {
+   "original_average": 146.0,
+   "average_without_max": 107.5,
+   "reduction": 38.5
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "calculate_average",
+   "find_max",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "sum_values",
+    "divide",
+    "find_max",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "original_average": 146,
+   "average_without_max": 107.5,
+   "reduction": 38.5
+  }
+ },
+ {
+  "task_id": "A7_10",
+  "suite": "adversarial12",
+  "level": 6,
+  "category": "order_of_operations",
+  "prompt": "A dataset starts with 10,000 records. First, 20% are removed for quality control. Then 25% of the remaining records are sampled for manual review. Finally, 10% of the reviewed records are found to contain errors and are excluded. How many reviewed records remain after the final exclusion?",
+  "expected": {
+   "answer": 1800.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [
+   "multiply",
+   "subtract"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "subtract"
+   ]
+  ],
+  "v1_evaluator": "numeric",
+  "v1_expected": 1800
+ },
+ {
+  "task_id": "A7_11",
+  "suite": "adversarial12",
+  "level": 6,
+  "category": "evidence_consistency",
+  "prompt": "A report states that a model achieved 90% accuracy on 2,000 cases and made 1,700 correct predictions. Another report states that the same evaluation had 1,800 correct predictions. Determine which numerical claim is consistent with the stated accuracy and dataset size.",
+  "expected": {
+   "consistent_correct_count": 1800.0,
+   "inconsistent_count": 1700.0
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential",
+   "error_detection",
+   "conflicting"
+  ],
+  "expected_tools": [
+   "multiply",
+   "compare_values"
+  ],
+  "acceptable_tool_sets": [
+   [
+    "calculate_percentage",
+    "compare_values"
+   ]
+  ],
+  "v1_evaluator": "structured",
+  "v1_expected": {
+   "consistent_correct_count": 1800,
+   "inconsistent_count": 1700
+  }
+ },
+ {
+  "task_id": "A7_12",
+  "suite": "adversarial12",
+  "level": 6,
+  "category": "underdetermined_reasoning",
+  "prompt": "A company reports that the average accuracy of two datasets was 85%. Dataset A had 1,000 cases with 80% accuracy. Dataset B had unknown size and unknown accuracy. Determine whether Dataset B's accuracy can be uniquely determined from the available information.",
+  "expected": {
+   "answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine",
+    "cannot know"
+   ]
+  },
+  "tol": 0.01,
+  "tags": [
+   "sequential"
+  ],
+  "expected_tools": [],
+  "acceptable_tool_sets": [],
+  "v1_evaluator": "text",
+  "v1_expected": [
+   "cannot be determined",
+   "cannot be uniquely determined",
+   "cannot be determined from the information",
+   "cannot be determined from the available information",
+   "not enough information",
+   "insufficient information",
+   "impossible to determine",
+   "cannot determine"
+  ]
+ }
+]

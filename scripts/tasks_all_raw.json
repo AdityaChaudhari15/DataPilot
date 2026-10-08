@@ -1,0 +1,3645 @@
+{
+ "RESEARCH_TASKS": [
+  {
+   "task_id": "L1_01",
+   "category": "arithmetic",
+   "complexity_level": 1,
+   "task": "Calculate 847 + 293. Use the appropriate calculation tool.",
+   "expected_answer": 1140,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests direct addition and basic tool selection."
+  },
+  {
+   "task_id": "L1_02",
+   "category": "arithmetic",
+   "complexity_level": 1,
+   "task": "Calculate 936 divided by 24. Use the appropriate calculation tool.",
+   "expected_answer": 39,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "divide"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests direct division and tool selection."
+  },
+  {
+   "task_id": "L1_03",
+   "category": "arithmetic",
+   "complexity_level": 1,
+   "task": "Calculate 37 multiplied by 24. Use the appropriate calculation tool.",
+   "expected_answer": 888,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests direct multiplication."
+  },
+  {
+   "task_id": "L1_04",
+   "category": "statistics",
+   "complexity_level": 1,
+   "task": "Calculate the average of 18, 24, 30, 36, and 42. Use the appropriate calculation tool.",
+   "expected_answer": 30,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_average"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests direct statistical calculation."
+  },
+  {
+   "task_id": "L1_05",
+   "category": "arithmetic",
+   "complexity_level": 1,
+   "task": "Subtract 275 from 940. Use the appropriate calculation tool.",
+   "expected_answer": 665,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests direct subtraction."
+  },
+  {
+   "task_id": "L1_06",
+   "category": "statistics",
+   "complexity_level": 1,
+   "task": "Calculate the average of 12, 18, 24, and 30.",
+   "expected_answer": 21,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_average"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests basic averaging without explicit tool instruction."
+  },
+  {
+   "task_id": "L1_07",
+   "category": "arithmetic",
+   "complexity_level": 1,
+   "task": "A company's monthly support tickets increased from 120 to 165. Calculate the increase.",
+   "expected_answer": 45,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests recognizing subtraction from a natural-language task."
+  },
+  {
+   "task_id": "L1_08",
+   "category": "arithmetic",
+   "complexity_level": 1,
+   "task": "A dataset contains 125 records in one batch and 275 records in another. Calculate the combined number of records.",
+   "expected_answer": 400,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests addition in a simple analytical context."
+  },
+  {
+   "task_id": "L1_09",
+   "category": "statistics",
+   "complexity_level": 1,
+   "task": "The response times for five requests were 10, 20, 30, 40, and 50 milliseconds. Calculate the average response time.",
+   "expected_answer": 30,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_average"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests basic descriptive statistics."
+  },
+  {
+   "task_id": "L1_10",
+   "category": "arithmetic",
+   "complexity_level": 1,
+   "task": "A system processed 720 requests over 12 hours. Calculate the average number of requests processed per hour.",
+   "expected_answer": 60,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "divide"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests recognizing division as the required operation."
+  },
+  {
+   "task_id": "L2_01",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A product costs $240. Apply a 15% discount, then add $20 shipping. What is the final price?",
+   "expected_answer": 224,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "subtract",
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests sequential percentage, subtraction, and addition."
+  },
+  {
+   "task_id": "L2_02",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A company has 480 employees. 35% work remotely. Of the remote employees, 25% are managers. How many remote employees are non-managers?",
+   "expected_answer": 126,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests dependent intermediate calculations."
+  },
+  {
+   "task_id": "L2_03",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A project has four stages taking 4, 7, 5, and 3 days. A 2-day delay is added after the longest stage. What is the total project duration?",
+   "expected_answer": 21,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests identifying the longest stage before applying the delay."
+  },
+  {
+   "task_id": "L2_04",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A store sells 120 units on Monday, 150 on Tuesday, and 180 on Wednesday. Thursday sales are 20% higher than Wednesday. What are the total sales for all four days?",
+   "expected_answer": 666,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests percentage calculation followed by aggregation."
+  },
+  {
+   "task_id": "L2_05",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A server handles 1,200 requests per minute. During a peak period, traffic increases by 25%. How many requests per minute must the server handle during the peak?",
+   "expected_answer": 1500,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests percentage increase."
+  },
+  {
+   "task_id": "L2_06",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A dataset initially contains 2,000 records. 15% are removed as duplicates, and then 120 new records are added. How many records remain?",
+   "expected_answer": 1820,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "subtract",
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests sequential percentage removal and addition."
+  },
+  {
+   "task_id": "L2_07",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "Three teams completed 18, 24, and 30 tasks respectively. The team with the highest output is assigned 20% additional tasks. What is its new task count?",
+   "expected_answer": 36,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests identifying a maximum before applying a percentage increase."
+  },
+  {
+   "task_id": "L2_08",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A service has 800 users. 40% are premium users. Of the premium users, 30% use an advanced feature. How many premium users do not use the advanced feature?",
+   "expected_answer": 224,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests nested percentage reasoning."
+  },
+  {
+   "task_id": "L2_09",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A project budget is $50,000. Development uses 45%, testing uses 20%, and the remaining budget is allocated to deployment. How much is allocated to deployment?",
+   "expected_answer": 17500,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests calculating multiple allocations and a remainder."
+  },
+  {
+   "task_id": "L2_10",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A company's monthly revenue is $80,000. Revenue increases by 10% in month two and decreases by 5% from the month-two value in month three. What is the month-three revenue?",
+   "expected_answer": 83600,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests sequential percentage changes."
+  },
+  {
+   "task_id": "L3_01",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A team tested three models. Model A achieved 82% accuracy, Model B achieved 87%, and Model C achieved 84%. Which model performed best, and by how many percentage points did it outperform the second-best model?",
+   "expected_answer": {
+    "best_model": "Model B",
+    "difference": 3
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Ranking and difference between top two results."
+  },
+  {
+   "task_id": "L3_02",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A dataset contains 2,400 records. 1,500 are training records and 600 are validation records. How many records are left for testing, and what percentage of the full dataset do they represent?",
+   "expected_answer": {
+    "testing_records": 300,
+    "percentage": 12.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Deriving a remainder and interpreting it as a percentage."
+  },
+  {
+   "task_id": "L3_03",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Three experiments produced average processing times of 120 ms, 95 ms, and 110 ms. Which experiment was fastest, and how much faster was it than the slowest experiment?",
+   "expected_answer": {
+    "fastest": 95,
+    "difference": 25
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_min",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Min/max comparison and performance gap."
+  },
+  {
+   "task_id": "L3_04",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A company recorded monthly support tickets of 420, 380, 510, and 290. Calculate the average number of tickets and identify whether the maximum month exceeded the average by more than 20%.",
+   "expected_answer": {
+    "average": 400,
+    "maximum": 510,
+    "exceeds_20_percent": "yes"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Average, maximum, and relative comparison."
+  },
+  {
+   "task_id": "L3_05",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A model processed 8,000 records. System A produced 7,600 valid records, while System B produced 7,200 valid records. Which system has the higher validity rate, and what is the percentage-point difference?",
+   "expected_answer": {
+    "better_system": "System A",
+    "difference": 5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Compare derived rates rather than raw counts."
+  },
+  {
+   "task_id": "L3_06",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Four models have scores of 71, 84, 79, and 84. What is the maximum score, and are there multiple models sharing that maximum?",
+   "expected_answer": {
+    "maximum": 84,
+    "multiple": "yes"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Maximum detection with tied values."
+  },
+  {
+   "task_id": "L3_07",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A dataset has 900 observations. 360 belong to Category A, 270 to Category B, and the remaining observations belong to Category C. What percentage of the dataset belongs to Category C?",
+   "expected_answer": {
+    "category_c": 270,
+    "percentage": 30
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Multi-step remainder and proportion reasoning."
+  },
+  {
+   "task_id": "L3_08",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Model X has an accuracy of 91% on Dataset A and 76% on Dataset B. Model Y has 88% on Dataset A and 81% on Dataset B. Which model has the higher average accuracy across the two datasets?",
+   "expected_answer": {
+    "better_model": "Model Y",
+    "average_x": 83.5,
+    "average_y": 84.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Aggregating performance across multiple datasets."
+  },
+  {
+   "task_id": "L3_09",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A service handled 1,200 requests in one hour. Endpoint A handled 450, Endpoint B handled 300, and Endpoint C handled the remainder. What percentage of requests were handled by Endpoint C?",
+   "expected_answer": {
+    "endpoint_c": 450,
+    "percentage": 37.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Remainder calculation followed by proportional analysis."
+  },
+  {
+   "task_id": "L3_10",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Five experiments produced scores of 62, 74, 81, 69, and 77. Determine the average score, the highest score, and whether the highest score is at least 15% greater than the average.",
+   "expected_answer": {
+    "average": 72.6,
+    "maximum": 81,
+    "exceeds_15_percent": "no"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Combining aggregation, ranking, and threshold reasoning."
+  },
+  {
+   "task_id": "L4_01",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A report states: 'The average of 18, 24, and 30 is 25.' Verify the report and state the correct average.",
+   "expected_answer": 24,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect reported average and calculate the correct value."
+  },
+  {
+   "task_id": "L4_02",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A product costs $500. A report claims that a 20% discount reduces the price to $410. Verify the claim and state the correct final price after the discount.",
+   "expected_answer": 400,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect discount calculation."
+  },
+  {
+   "task_id": "L4_03",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A dataset contains 900 records. A report says 450 were used for training and 300 for validation, leaving 250 for testing. Verify the report and state the correct number of testing records.",
+   "expected_answer": 150,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect remainder calculation."
+  },
+  {
+   "task_id": "L4_04",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A system was tested three times with response times of 120 ms, 95 ms, and 110 ms. A report says the fastest response was 110 ms. Verify the claim and state the correct fastest time.",
+   "expected_answer": 95,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_min"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect minimum-value selection."
+  },
+  {
+   "task_id": "L4_05",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "Three models achieved accuracies of Model A: 80%, Model B: 75%, and Model C: 85%. A report says Model B performed best. Verify the claim and identify the best model.",
+   "expected_answer": "Model C",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect ranking conclusion."
+  },
+  {
+   "task_id": "L4_06",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A report states that 45 out of 180 records represent 20% of the dataset. Verify the claim and state the correct percentage.",
+   "expected_answer": 25,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect percentage calculation."
+  },
+  {
+   "task_id": "L4_07",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "Monthly revenue is $50,000. It increases by 10% in month two and then decreases by 5% in month three. A report states that the final revenue is $52,500. Verify the report and state the correct final revenue.",
+   "expected_answer": 52250,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect sequential percentage calculation."
+  },
+  {
+   "task_id": "L4_08",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A team recorded sales of 120 units on Monday, 150 on Tuesday, and 130 on Wednesday. A report states that total sales were 410 units. Verify the report and state the correct total.",
+   "expected_answer": 400,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "sum_values"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect aggregation."
+  },
+  {
+   "task_id": "L4_09",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "The values in a dataset are 14, 19, 22, and 21. A report identifies 21 as the maximum value. Verify the claim and state the correct maximum.",
+   "expected_answer": 22,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect maximum-value selection."
+  },
+  {
+   "task_id": "L4_10",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A system processed 800 records, of which 680 were valid. A report states that the validity rate was 80%. Verify the claim and state the correct validity percentage.",
+   "expected_answer": 85,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect rate calculation."
+  },
+  {
+   "task_id": "L5_01",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Two reports disagree about the average response time. Report A claims the average of 18 ms, 20 ms, and 22 ms is 22 ms. Report B claims it is 20 ms. Recalculate the average and identify which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve two conflicting reports by recomputing the underlying statistic."
+  },
+  {
+   "task_id": "L5_02",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "A dataset contains 800 records. Report A says 30% of the records belong to the validation set and therefore there are 280 validation records. Report B says there are 240 validation records. Determine which report is supported by the data.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting validation counts using the stated percentage."
+  },
+  {
+   "task_id": "L5_03",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Model A correctly classified 920 of 1000 cases. Model B correctly classified 450 of 500 cases. Report A says: 'Model A has the higher accuracy because 92% is greater than 90%.' Report B says: 'Model B has the higher accuracy.' Determine which report is correct.",
+   "expected_answer": "Report A",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting performance claims by comparing rates rather than raw counts."
+  },
+  {
+   "task_id": "L5_04",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Daily sales were 120, 150, and 130 units. Report A states that total sales were 410 units. Report B states that total sales were 400 units. Recalculate the total and identify the correct report.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "sum_values"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting totals by aggregating the raw observations."
+  },
+  {
+   "task_id": "L5_05",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "A service costs $900 and receives a 5% discount. Report A says the discounted price is $850. Report B says it is $855. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting financial results using the original price and discount."
+  },
+  {
+   "task_id": "L5_06",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "A dataset contains 1000 records. Exactly 70% are used for training and 200 are used for validation. Report A says only 50 testing records remain. Report B says 100 testing records remain. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting remainder counts across dataset partitions."
+  },
+  {
+   "task_id": "L5_07",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "System A has a response time of 120 ms and System B has a response time of 125 ms. Report A says the difference is 10 ms. Report B says the difference is 5 ms. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve a disagreement about a derived difference."
+  },
+  {
+   "task_id": "L5_08",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Model A correctly classified 82 of 100 samples. Model B correctly classified 41 of 50 samples. Report A claims Model A has the higher accuracy. Report B claims the models have equal accuracy. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage",
+    "compare_values"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply",
+     "compare_values"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Determine whether apparently different counts produce different rates."
+  },
+  {
+   "task_id": "L5_09",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Monthly requests increased from 1200 to 1440. Report A says the increase was 10%. Report B says it was 20%. Recalculate the percentage increase and identify the correct report.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "subtract",
+     "divide",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting growth-rate claims from raw values."
+  },
+  {
+   "task_id": "L5_10",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Three models produced these results: Model A: 450 correct out of 500 cases, Model B: 880 correct out of 1000 cases, and Model C: 420 correct out of 500 cases. One report ranks A first, B second, and C third because A has the most correct predictions relative to its test set. Another report ranks B first. Determine which model actually has the highest accuracy.",
+   "expected_answer": "Model A",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage",
+    "find_max"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply",
+     "find_max"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve competing rankings by comparing normalized performance rates."
+  },
+  {
+   "task_id": "L6_01",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A dataset contains 2400 records. 1500 are used for training and 600 for validation. The remaining records are used for testing. Of the testing records, 80% pass a quality check. How many testing records pass the quality check?",
+   "expected_answer": 240,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "add",
+     "subtract",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Compute a remainder, then apply a proportion to that remainder."
+  },
+  {
+   "task_id": "L6_02",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A company processes 5000 requests per hour. System A handles 45% of the requests and System B handles 35%. The remaining requests are handled by System C. System C improves its capacity by 20%. How many requests per hour can System C handle after the improvement?",
+   "expected_answer": 1200,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Derive a remainder share, convert it to a count, then apply an improvement."
+  },
+  {
+   "task_id": "L6_03",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "Three models have accuracies of 82%, 88%, and 85%. The best model is selected as the baseline. A fourth model initially achieves 79% accuracy but improves by 10% relative to its original accuracy. Does the improved fourth model exceed the baseline? State the improved accuracy.",
+   "expected_answer": {
+    "exceeds_baseline": "No",
+    "improved_accuracy": 86.9
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max",
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "find_max",
+     "calculate_percentage"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Identify a baseline maximum, then apply a relative improvement and compare."
+  },
+  {
+   "task_id": "L6_04",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A team completed three experiments with scores of 72, 84, and 90. The average score is used as a threshold. A new experiment scores 12% above that average. What is the new experiment's score?",
+   "expected_answer": 91.84,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "multiply",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "multiply",
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Compute an average threshold and then apply a relative increase."
+  },
+  {
+   "task_id": "L6_05",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A project has a budget of $80,000. Development uses 45% of the budget. Testing uses 20% of the remaining budget after development. The rest is allocated to deployment. How much money is allocated to deployment?",
+   "expected_answer": 35200,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Apply a percentage to the original budget, then another percentage to the remainder."
+  },
+  {
+   "task_id": "L6_06",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "Five systems have response times of 140 ms, 125 ms, 110 ms, 135 ms, and 120 ms. The fastest system is improved by reducing its response time by 15%. The average response time of all five original systems is then used as a comparison threshold. By how many milliseconds is the improved fastest system below the original average?",
+   "expected_answer": 32.5,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_min",
+    "multiply",
+    "subtract",
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "find_min",
+     "calculate_percentage",
+     "subtract",
+     "calculate_average"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Find a minimum, improve it, compute an average, and compare the results."
+  },
+  {
+   "task_id": "L6_07",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A dataset contains 4000 observations. 60% are training data. Of the remaining observations, 25% are validation data. The rest are test data. A preprocessing step removes 10% of the test data. How many test observations remain after preprocessing?",
+   "expected_answer": 1080,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Calculate sequential dataset partitions and then apply data loss."
+  },
+  {
+   "task_id": "L6_08",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A company evaluates three models on two datasets. Model A scores 90% and 80%, Model B scores 85% and 88%, and Model C scores 92% and 76%. First calculate each model's average score. Then identify the model with the highest average. How many percentage points is its average above the second-highest average?",
+   "expected_answer": 1.5,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Aggregate multiple datasets, rank the derived averages, and compute the gap."
+  },
+  {
+   "task_id": "L6_09",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A service processes 1200 requests per minute. Traffic increases by 25% during peak hours. During a later optimization, peak traffic is reduced by 10%. What is the resulting requests-per-minute rate after both changes?",
+   "expected_answer": 1350,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Apply sequential percentage changes to a baseline rate."
+  },
+  {
+   "task_id": "L6_10",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "Four analysts completed 24, 30, 36, and 42 reports respectively. The team average is calculated. An analyst who produced the maximum number of reports is then given a 10% productivity increase. How many reports would that analyst produce after the increase, and how many more is that than the original team average?",
+   "expected_answer": 13.2,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "multiply",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Compute an average, identify a maximum, apply an improvement, and compare."
+  }
+ ],
+ "L3_TASKS": [
+  {
+   "task_id": "L3_01",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A team tested three models. Model A achieved 82% accuracy, Model B achieved 87%, and Model C achieved 84%. Which model performed best, and by how many percentage points did it outperform the second-best model?",
+   "expected_answer": {
+    "best_model": "Model B",
+    "difference": 3
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Ranking and difference between top two results."
+  },
+  {
+   "task_id": "L3_02",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A dataset contains 2,400 records. 1,500 are training records and 600 are validation records. How many records are left for testing, and what percentage of the full dataset do they represent?",
+   "expected_answer": {
+    "testing_records": 300,
+    "percentage": 12.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Deriving a remainder and interpreting it as a percentage."
+  },
+  {
+   "task_id": "L3_03",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Three experiments produced average processing times of 120 ms, 95 ms, and 110 ms. Which experiment was fastest, and how much faster was it than the slowest experiment?",
+   "expected_answer": {
+    "fastest": 95,
+    "difference": 25
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_min",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Min/max comparison and performance gap."
+  },
+  {
+   "task_id": "L3_04",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A company recorded monthly support tickets of 420, 380, 510, and 290. Calculate the average number of tickets and identify whether the maximum month exceeded the average by more than 20%.",
+   "expected_answer": {
+    "average": 400,
+    "maximum": 510,
+    "exceeds_20_percent": "yes"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Average, maximum, and relative comparison."
+  },
+  {
+   "task_id": "L3_05",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A model processed 8,000 records. System A produced 7,600 valid records, while System B produced 7,200 valid records. Which system has the higher validity rate, and what is the percentage-point difference?",
+   "expected_answer": {
+    "better_system": "System A",
+    "difference": 5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Compare derived rates rather than raw counts."
+  },
+  {
+   "task_id": "L3_06",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Four models have scores of 71, 84, 79, and 84. What is the maximum score, and are there multiple models sharing that maximum?",
+   "expected_answer": {
+    "maximum": 84,
+    "multiple": "yes"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Maximum detection with tied values."
+  },
+  {
+   "task_id": "L3_07",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A dataset has 900 observations. 360 belong to Category A, 270 to Category B, and the remaining observations belong to Category C. What percentage of the dataset belongs to Category C?",
+   "expected_answer": {
+    "category_c": 270,
+    "percentage": 30
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Multi-step remainder and proportion reasoning."
+  },
+  {
+   "task_id": "L3_08",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Model X has an accuracy of 91% on Dataset A and 76% on Dataset B. Model Y has 88% on Dataset A and 81% on Dataset B. Which model has the higher average accuracy across the two datasets?",
+   "expected_answer": {
+    "better_model": "Model Y",
+    "average_x": 83.5,
+    "average_y": 84.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Aggregating performance across multiple datasets."
+  },
+  {
+   "task_id": "L3_09",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A service handled 1,200 requests in one hour. Endpoint A handled 450, Endpoint B handled 300, and Endpoint C handled the remainder. What percentage of requests were handled by Endpoint C?",
+   "expected_answer": {
+    "endpoint_c": 450,
+    "percentage": 37.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Remainder calculation followed by proportional analysis."
+  },
+  {
+   "task_id": "L3_10",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Five experiments produced scores of 62, 74, 81, 69, and 77. Determine the average score, the highest score, and whether the highest score is at least 15% greater than the average.",
+   "expected_answer": {
+    "average": 72.6,
+    "maximum": 81,
+    "exceeds_15_percent": "no"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Combining aggregation, ranking, and threshold reasoning."
+  }
+ ],
+ "L4_TASKS": [
+  {
+   "task_id": "L4_01",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A report states: 'The average of 18, 24, and 30 is 25.' Verify the report and state the correct average.",
+   "expected_answer": 24,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect reported average and calculate the correct value."
+  },
+  {
+   "task_id": "L4_02",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A product costs $500. A report claims that a 20% discount reduces the price to $410. Verify the claim and state the correct final price after the discount.",
+   "expected_answer": 400,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect discount calculation."
+  },
+  {
+   "task_id": "L4_03",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A dataset contains 900 records. A report says 450 were used for training and 300 for validation, leaving 250 for testing. Verify the report and state the correct number of testing records.",
+   "expected_answer": 150,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect remainder calculation."
+  },
+  {
+   "task_id": "L4_04",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A system was tested three times with response times of 120 ms, 95 ms, and 110 ms. A report says the fastest response was 110 ms. Verify the claim and state the correct fastest time.",
+   "expected_answer": 95,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_min"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect minimum-value selection."
+  },
+  {
+   "task_id": "L4_05",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "Three models achieved accuracies of Model A: 80%, Model B: 75%, and Model C: 85%. A report says Model B performed best. Verify the claim and identify the best model.",
+   "expected_answer": "Model C",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect ranking conclusion."
+  },
+  {
+   "task_id": "L4_06",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A report states that 45 out of 180 records represent 20% of the dataset. Verify the claim and state the correct percentage.",
+   "expected_answer": 25,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect percentage calculation."
+  },
+  {
+   "task_id": "L4_07",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "Monthly revenue is $50,000. It increases by 10% in month two and then decreases by 5% in month three. A report states that the final revenue is $52,500. Verify the report and state the correct final revenue.",
+   "expected_answer": 52250,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect sequential percentage calculation."
+  },
+  {
+   "task_id": "L4_08",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A team recorded sales of 120 units on Monday, 150 on Tuesday, and 130 on Wednesday. A report states that total sales were 410 units. Verify the report and state the correct total.",
+   "expected_answer": 400,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "sum_values"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect aggregation."
+  },
+  {
+   "task_id": "L4_09",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "The values in a dataset are 14, 19, 22, and 21. A report identifies 21 as the maximum value. Verify the claim and state the correct maximum.",
+   "expected_answer": 22,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect maximum-value selection."
+  },
+  {
+   "task_id": "L4_10",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "A system processed 800 records, of which 680 were valid. A report states that the validity rate was 80%. Verify the claim and state the correct validity percentage.",
+   "expected_answer": 85,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect rate calculation."
+  }
+ ],
+ "L5_TASKS": [
+  {
+   "task_id": "L5_01",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Two reports disagree about the average response time. Report A claims the average of 18 ms, 20 ms, and 22 ms is 22 ms. Report B claims it is 20 ms. Recalculate the average and identify which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve two conflicting reports by recomputing the underlying statistic."
+  },
+  {
+   "task_id": "L5_02",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "A dataset contains 800 records. Report A says 30% of the records belong to the validation set and therefore there are 280 validation records. Report B says there are 240 validation records. Determine which report is supported by the data.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting validation counts using the stated percentage."
+  },
+  {
+   "task_id": "L5_03",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Model A correctly classified 920 of 1000 cases. Model B correctly classified 450 of 500 cases. Report A says: 'Model A has the higher accuracy because 92% is greater than 90%.' Report B says: 'Model B has the higher accuracy.' Determine which report is correct.",
+   "expected_answer": "Report A",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting performance claims by comparing rates rather than raw counts."
+  },
+  {
+   "task_id": "L5_04",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Daily sales were 120, 150, and 130 units. Report A states that total sales were 410 units. Report B states that total sales were 400 units. Recalculate the total and identify the correct report.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "sum_values"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting totals by aggregating the raw observations."
+  },
+  {
+   "task_id": "L5_05",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "A service costs $900 and receives a 5% discount. Report A says the discounted price is $850. Report B says it is $855. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting financial results using the original price and discount."
+  },
+  {
+   "task_id": "L5_06",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "A dataset contains 1000 records. Exactly 70% are used for training and 200 are used for validation. Report A says only 50 testing records remain. Report B says 100 testing records remain. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting remainder counts across dataset partitions."
+  },
+  {
+   "task_id": "L5_07",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "System A has a response time of 120 ms and System B has a response time of 125 ms. Report A says the difference is 10 ms. Report B says the difference is 5 ms. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve a disagreement about a derived difference."
+  },
+  {
+   "task_id": "L5_08",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Model A correctly classified 82 of 100 samples. Model B correctly classified 41 of 50 samples. Report A claims Model A has the higher accuracy. Report B claims the models have equal accuracy. Determine which report is correct.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage",
+    "compare_values"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply",
+     "compare_values"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Determine whether apparently different counts produce different rates."
+  },
+  {
+   "task_id": "L5_09",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Monthly requests increased from 1200 to 1440. Report A says the increase was 10%. Report B says it was 20%. Recalculate the percentage increase and identify the correct report.",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "subtract",
+     "divide",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve conflicting growth-rate claims from raw values."
+  },
+  {
+   "task_id": "L5_10",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Three models produced these results: Model A: 450 correct out of 500 cases, Model B: 880 correct out of 1000 cases, and Model C: 420 correct out of 500 cases. One report ranks A first, B second, and C third because A has the most correct predictions relative to its test set. Another report ranks B first. Determine which model actually has the highest accuracy.",
+   "expected_answer": "Model A",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage",
+    "find_max"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply",
+     "find_max"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve competing rankings by comparing normalized performance rates."
+  }
+ ],
+ "L6_TASKS": [
+  {
+   "task_id": "L6_01",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A dataset contains 2400 records. 1500 are used for training and 600 for validation. The remaining records are used for testing. Of the testing records, 80% pass a quality check. How many testing records pass the quality check?",
+   "expected_answer": 240,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "add",
+     "subtract",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Compute a remainder, then apply a proportion to that remainder."
+  },
+  {
+   "task_id": "L6_02",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A company processes 5000 requests per hour. System A handles 45% of the requests and System B handles 35%. The remaining requests are handled by System C. System C improves its capacity by 20%. How many requests per hour can System C handle after the improvement?",
+   "expected_answer": 1200,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Derive a remainder share, convert it to a count, then apply an improvement."
+  },
+  {
+   "task_id": "L6_03",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "Three models have accuracies of 82%, 88%, and 85%. The best model is selected as the baseline. A fourth model initially achieves 79% accuracy but improves by 10% relative to its original accuracy. Does the improved fourth model exceed the baseline? State the improved accuracy.",
+   "expected_answer": {
+    "exceeds_baseline": "No",
+    "improved_accuracy": 86.9
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max",
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "find_max",
+     "calculate_percentage"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Identify a baseline maximum, then apply a relative improvement and compare."
+  },
+  {
+   "task_id": "L6_04",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A team completed three experiments with scores of 72, 84, and 90. The average score is used as a threshold. A new experiment scores 12% above that average. What is the new experiment's score?",
+   "expected_answer": 91.84,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "multiply",
+    "add"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "multiply",
+     "add"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Compute an average threshold and then apply a relative increase."
+  },
+  {
+   "task_id": "L6_05",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A project has a budget of $80,000. Development uses 45% of the budget. Testing uses 20% of the remaining budget after development. The rest is allocated to deployment. How much money is allocated to deployment?",
+   "expected_answer": 35200,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Apply a percentage to the original budget, then another percentage to the remainder."
+  },
+  {
+   "task_id": "L6_06",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "Five systems have response times of 140 ms, 125 ms, 110 ms, 135 ms, and 120 ms. The fastest system is improved by reducing its response time by 15%. The average response time of all five original systems is then used as a comparison threshold. By how many milliseconds is the improved fastest system below the original average?",
+   "expected_answer": 32.5,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_min",
+    "multiply",
+    "subtract",
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "find_min",
+     "calculate_percentage",
+     "subtract",
+     "calculate_average"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Find a minimum, improve it, compute an average, and compare the results."
+  },
+  {
+   "task_id": "L6_07",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A dataset contains 4000 observations. 60% are training data. Of the remaining observations, 25% are validation data. The rest are test data. A preprocessing step removes 10% of the test data. How many test observations remain after preprocessing?",
+   "expected_answer": 1080,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Calculate sequential dataset partitions and then apply data loss."
+  },
+  {
+   "task_id": "L6_08",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A company evaluates three models on two datasets. Model A scores 90% and 80%, Model B scores 85% and 88%, and Model C scores 92% and 76%. First calculate each model's average score. Then identify the model with the highest average. How many percentage points is its average above the second-highest average?",
+   "expected_answer": 1.5,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Aggregate multiple datasets, rank the derived averages, and compute the gap."
+  },
+  {
+   "task_id": "L6_09",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A service processes 1200 requests per minute. Traffic increases by 25% during peak hours. During a later optimization, peak traffic is reduced by 10%. What is the resulting requests-per-minute rate after both changes?",
+   "expected_answer": 1350,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Apply sequential percentage changes to a baseline rate."
+  },
+  {
+   "task_id": "L6_10",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "Four analysts completed 24, 30, 36, and 42 reports respectively. The team average is calculated. An analyst who produced the maximum number of reports is then given a 10% productivity increase. How many reports would that analyst produce after the increase, and how many more is that than the original team average?",
+   "expected_answer": 13.2,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "multiply",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Compute an average, identify a maximum, apply an improvement, and compare."
+  }
+ ],
+ "pilot_tasks": [
+  {
+   "task_id": "L1_04",
+   "category": "statistics",
+   "complexity_level": 1,
+   "task": "Calculate the average of 18, 24, 30, 36, and 42. Use the appropriate calculation tool.",
+   "expected_answer": 30,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_average"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Tests direct statistical calculation."
+  },
+  {
+   "task_id": "L2_10",
+   "category": "multi_step_calculation",
+   "complexity_level": 2,
+   "task": "A company's monthly revenue is $80,000. Revenue increases by 10% in month two and decreases by 5% from the month-two value in month three. What is the month-three revenue?",
+   "expected_answer": 83600,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests sequential percentage changes."
+  },
+  {
+   "task_id": "L3_01",
+   "category": "analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A team tested three models. Model A achieved 82% accuracy, Model B achieved 87%, and Model C achieved 84%. Which model performed best, and by how many percentage points did it outperform the second-best model?",
+   "expected_answer": {
+    "best_model": "Model B",
+    "difference": 3
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Ranking and difference between top two results."
+  },
+  {
+   "task_id": "L4_07",
+   "category": "error_detection",
+   "complexity_level": 4,
+   "task": "Monthly revenue is $50,000. It increases by 10% in month two and then decreases by 5% in month three. A report states that the final revenue is $52,500. Verify the report and state the correct final revenue.",
+   "expected_answer": 52250,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Detect an incorrect sequential percentage calculation."
+  },
+  {
+   "task_id": "L5_10",
+   "category": "conflicting_information",
+   "complexity_level": 5,
+   "task": "Three models produced these results: Model A: 450 correct out of 500 cases, Model B: 880 correct out of 1000 cases, and Model C: 420 correct out of 500 cases. One report ranks A first, B second, and C third because A has the most correct predictions relative to its test set. Another report ranks B first. Determine which model actually has the highest accuracy.",
+   "expected_answer": "Model A",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage",
+    "find_max"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply",
+     "find_max"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Resolve competing rankings by comparing normalized performance rates."
+  },
+  {
+   "task_id": "L6_08",
+   "category": "complex_decomposition",
+   "complexity_level": 6,
+   "task": "A company evaluates three models on two datasets. Model A scores 90% and 80%, Model B scores 85% and 88%, and Model C scores 92% and 76%. First calculate each model's average score. Then identify the model with the highest average. How many percentage points is its average above the second-highest average?",
+   "expected_answer": 1.5,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Aggregate multiple datasets, rank the derived averages, and compute the gap."
+  }
+ ],
+ "HARD_VALIDATION_TASKS": [
+  {
+   "task_id": "H3_01",
+   "category": "hard_analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Three models were evaluated on datasets of different sizes. Model A achieved 84% accuracy on 500 cases, Model B achieved 86% accuracy on 400 cases, and Model C achieved 82% accuracy on 600 cases. Which model has the highest accuracy, and which model made the largest number of correct predictions?",
+   "expected_answer": {
+    "highest_accuracy": "Model B",
+    "most_correct": "Model C"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "find_max"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "divide",
+     "find_max"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Distinguish highest rate from largest raw number of correct predictions."
+  },
+  {
+   "task_id": "H3_02",
+   "category": "hard_analytical_reasoning",
+   "complexity_level": 3,
+   "task": "Five values have an average of 22: 14, 18, 21, 25, and an unknown value. Determine the unknown value and state whether it is the maximum value in the dataset.",
+   "expected_answer": {
+    "missing_value": 32,
+    "is_maximum": "Yes"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "add",
+    "subtract",
+    "find_max"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "subtract",
+     "find_max"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Recover a missing observation from an aggregate constraint."
+  },
+  {
+   "task_id": "H3_03",
+   "category": "hard_analytical_reasoning",
+   "complexity_level": 3,
+   "task": "A system currently completes 72% of tasks successfully. After an improvement of 15% relative to its current performance, a report claims the new success rate is 87%. Calculate the actual new success rate and determine by how many percentage points the report overstates it.",
+   "expected_answer": {
+    "new_rate": 82.8,
+    "overstatement": 4.2
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "subtract"
+    ],
+    [
+     "calculate_percentage",
+     "add",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Distinguish relative improvement from percentage-point improvement."
+  },
+  {
+   "task_id": "H4_01",
+   "category": "hard_error_detection",
+   "complexity_level": 4,
+   "task": "A dataset contains 5,000 records. 60% are used for training. Of the remaining records, 30% are used for validation. A report claims that 1,550 records remain for testing. Verify the report and state the correct number of testing records.",
+   "expected_answer": 1400,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Detect an incorrect final remainder after sequential partitioning."
+  },
+  {
+   "task_id": "H4_02",
+   "category": "hard_error_detection",
+   "complexity_level": 4,
+   "task": "A company had revenue of $80,000 and costs of $64,000. Later, revenue became $100,000 and costs became $75,000. A report says the profit margin increased by 5% and profit increased by 5%. Verify both claims. State the change in profit margin in percentage points and the percentage increase in profit.",
+   "expected_answer": {
+    "margin_change": 5,
+    "profit_increase": 56.25
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "subtract",
+     "divide",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Distinguish percentage-point margin change from percentage profit growth."
+  },
+  {
+   "task_id": "H4_03",
+   "category": "hard_error_detection",
+   "complexity_level": 4,
+   "task": "A report contains two claims about response times of 120 ms, 95 ms, 110 ms, and 105 ms. Claim 1 says the average response time is 105 ms. Claim 2 says the fastest response time is 95 ms. Determine the correct average and state which claim or claims are correct.",
+   "expected_answer": {
+    "average": 107.5,
+    "claims_correct": "Claim 2"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_min"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_min"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": true,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Evaluate multiple claims against the same underlying observations."
+  },
+  {
+   "task_id": "H5_01",
+   "category": "hard_conflicting_information",
+   "complexity_level": 5,
+   "task": "Model A achieved 95% accuracy on 100 cases in Dataset 1 and 70% accuracy on 900 cases in Dataset 2. Model B achieved 82% accuracy across 1,000 cases. Report A says Model A performed better because its simple average accuracy is 82.5%. Report B says Model B performed better based on overall accuracy across all cases. Which report is correct?",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "divide"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Resolve conflicting reports by using a weighted overall accuracy."
+  },
+  {
+   "task_id": "H5_02",
+   "category": "hard_conflicting_information",
+   "complexity_level": 5,
+   "task": "System A scores 90% on 100 cases and 60% on 900 cases. System B scores 74% on 1,000 cases. Report A ranks System A higher using the simple average of 75%. Report B ranks System B higher using overall accuracy across all cases. Which report is correct for overall accuracy?",
+   "expected_answer": "Report B",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "divide"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Resolve arithmetic-mean versus weighted-average disagreement."
+  },
+  {
+   "task_id": "H5_03",
+   "category": "hard_conflicting_information",
+   "complexity_level": 5,
+   "task": "A budget of $100,000 allocates 40% to development. Of the remaining budget, 30% goes to testing. Report A says deployment receives $42,000. Report B says deployment receives $60,000. Determine which report is correct.",
+   "expected_answer": "Report A",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Resolve conflicting allocation reports using sequential allocation rules."
+  },
+  {
+   "task_id": "H5_04",
+   "category": "hard_conflicting_information",
+   "complexity_level": 5,
+   "task": "Model A has an accuracy of 92%, but the number of test cases is unknown. Model B has an accuracy of 90% on exactly 10,000 test cases. A report claims Model A must have made more correct predictions. Can that conclusion be determined from the available information?",
+   "expected_answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "cannot be determined from the information",
+    "cannot be determined from the available information",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine"
+   ],
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Test whether the agent recognizes insufficient information instead of overclaiming."
+  },
+  {
+   "task_id": "H6_01",
+   "category": "hard_complex_decomposition",
+   "complexity_level": 6,
+   "task": "A pipeline starts with 12,000 records. 50% are assigned to training, leaving the rest for later stages. Of the remaining records, 20% are assigned to validation and the rest become test records. Quality control removes 10% of the test records. Finally, 75% of the remaining test records are retained for production analysis. How many records are finally retained?",
+   "expected_answer": 3240,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ],
+    [
+     "multiply",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Four-stage dependent decomposition with sequential filtering."
+  },
+  {
+   "task_id": "H6_02",
+   "category": "hard_complex_decomposition",
+   "complexity_level": 6,
+   "task": "Three models were evaluated on datasets of different sizes. Model A scored 90% on 200 cases and 70% on 800 cases. Model B scored 78% on 1,000 cases. Model C scored 82% on 500 cases and 75% on 500 cases. Calculate each model's overall accuracy across its cases, identify the highest, and state by how many percentage points it exceeds the second-highest model.",
+   "expected_answer": 0.5,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "divide",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Weighted aggregation, ranking, and gap calculation across unequal datasets."
+  },
+  {
+   "task_id": "H6_03",
+   "category": "hard_complex_decomposition",
+   "complexity_level": 6,
+   "task": "A system starts with 15,000 records. 55% pass Stage 1. Of the records that pass Stage 1, 20% fail Stage 2. Of the records that remain after Stage 2, 25% are classified as high priority. Finally, 40% of the high-priority records are selected for review. How many records are selected for review?",
+   "expected_answer": 660,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Multi-stage conditional filtering requiring ordered dependent calculations."
+  },
+  {
+   "task_id": "H6_04",
+   "category": "hard_complex_decomposition",
+   "complexity_level": 6,
+   "task": "Three datasets report model accuracies of 92%, 89%, and 95%, but the number of test cases in each dataset is not provided. A researcher asks for the combined accuracy across all three datasets. Can the combined accuracy be determined exactly from the available information?",
+   "expected_answer": "Cannot be determined",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Tests recognition that aggregate accuracy requires dataset weights."
+  }
+ ],
+ "hard_pilot_tasks": [
+  {
+   "task_id": "H6_02",
+   "category": "hard_complex_decomposition",
+   "complexity_level": 6,
+   "task": "Three models were evaluated on datasets of different sizes. Model A scored 90% on 200 cases and 70% on 800 cases. Model B scored 78% on 1,000 cases. Model C scored 82% on 500 cases and 75% on 500 cases. Calculate each model's overall accuracy across its cases, identify the highest, and state by how many percentage points it exceeds the second-highest model.",
+   "expected_answer": 0.5,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "divide",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Weighted aggregation, ranking, and gap calculation across unequal datasets."
+  },
+  {
+   "task_id": "H5_04",
+   "category": "hard_conflicting_information",
+   "complexity_level": 5,
+   "task": "Model A has an accuracy of 92%, but the number of test cases is unknown. Model B has an accuracy of 90% on exactly 10,000 test cases. A report claims Model A must have made more correct predictions. Can that conclusion be determined from the available information?",
+   "expected_answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "cannot be determined from the information",
+    "cannot be determined from the available information",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine"
+   ],
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": false,
+   "description": "Test whether the agent recognizes insufficient information instead of overclaiming."
+  }
+ ],
+ "ADVERSARIAL_TASKS": [
+  {
+   "task_id": "A7_01",
+   "category": "percentage_semantics",
+   "complexity_level": 4,
+   "task": "A system's accuracy improves from 72% to 81%. A report says the system improved by 12.5 percentage points. Another report says it improved by 9 percentage points. Determine the correct absolute improvement in percentage points and the relative percentage improvement.",
+   "expected_answer": {
+    "percentage_point_improvement": 9,
+    "relative_improvement": 12.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "divide",
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "subtract",
+     "calculate_percentage"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Distinguish percentage-point change from relative percentage change."
+  },
+  {
+   "task_id": "A7_02",
+   "category": "sequential_percentage",
+   "complexity_level": 4,
+   "task": "A service costs $1,000. Its price is increased by 20% and then discounted by 20%. A report claims the final price returns to $1,000. Determine the actual final price and state whether the report is correct.",
+   "expected_answer": {
+    "final_price": 960,
+    "report": "Incorrect"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Test order-dependent percentage changes."
+  },
+  {
+   "task_id": "A7_03",
+   "category": "weighted_average",
+   "complexity_level": 5,
+   "task": "Dataset A contains 100 cases with 90% accuracy. Dataset B contains 900 cases with 70% accuracy. A report calculates the combined accuracy as the simple average of 90% and 70%. Determine the actual combined accuracy and whether the report is correct.",
+   "expected_answer": {
+    "combined_accuracy": 72,
+    "report": "Incorrect"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "divide"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Expose simple-average versus weighted-average reasoning."
+  },
+  {
+   "task_id": "A7_04",
+   "category": "irrelevant_information",
+   "complexity_level": 5,
+   "task": "A model processes 2,000 records. It correctly classifies 1,760. The development team has 12 members, the training dataset contains 5,000 records, and the system runs on 4 GPUs. What is the model's classification accuracy?",
+   "expected_answer": 88,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Identify relevant evidence while ignoring plausible distractors."
+  },
+  {
+   "task_id": "A7_05",
+   "category": "insufficient_information",
+   "complexity_level": 5,
+   "task": "Model A achieved 94% accuracy and Model B achieved 91% accuracy. The number of test cases for either model is not provided. Can we determine which model made more correct predictions?",
+   "expected_answer": "Cannot be determined",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Recognize that accuracy alone does not determine raw correct counts."
+  },
+  {
+   "task_id": "A7_06",
+   "category": "conditional_reasoning",
+   "complexity_level": 6,
+   "task": "A system processed 8,000 requests. It initially rejects 12% of them. A recovery process successfully restores 25% of the rejected requests. The remaining rejected requests are permanently lost. How many requests are successfully processed in total?",
+   "expected_answer": 7280,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Follow a dependent recovery branch rather than treating percentages independently."
+  },
+  {
+   "task_id": "A7_07",
+   "category": "conflicting_claims",
+   "complexity_level": 6,
+   "task": "A company has revenue of $120,000 and operating costs of $90,000. After an improvement, revenue increases by 15% while costs increase by 10%. Report A claims profit increases by exactly 20%. Report B claims profit increases by 30%. Calculate the new profit, the actual percentage increase in profit, and identify the correct report.",
+   "expected_answer": {
+    "new_profit": 39000,
+    "profit_increase": 30,
+    "report": "Report B"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add",
+     "subtract",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Resolve competing profit-growth claims after asymmetric revenue and cost changes."
+  },
+  {
+   "task_id": "A7_08",
+   "category": "ranking_criterion",
+   "complexity_level": 6,
+   "task": "Three models have accuracy and latency values:\nModel A: 92% accuracy, 180 ms latency.\nModel B: 89% accuracy, 120 ms latency.\nModel C: 91% accuracy, 150 ms latency.\nThe deployment rule requires accuracy of at least 90% AND latency below 160 ms. Which model or models satisfy the rule, and which satisfying model has the highest accuracy?",
+   "expected_answer": {
+    "qualifying_models": "Model C",
+    "best_model": "Model C"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "compare_values",
+    "find_max"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "find_max",
+     "compare_values"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Apply a conjunction of constraints before ranking candidates."
+  },
+  {
+   "task_id": "A7_09",
+   "category": "anomaly_detection",
+   "complexity_level": 6,
+   "task": "Five response times are 100 ms, 105 ms, 110 ms, 115 ms, and 300 ms. A report says the average response time represents normal system performance. Calculate the average and determine whether removing the single largest observation would reduce the average by more than 30 ms.",
+   "expected_answer": {
+    "original_average": 146,
+    "average_without_max": 107.5,
+    "reduction": 38.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Test sensitivity of an aggregate to an extreme observation."
+  },
+  {
+   "task_id": "A7_10",
+   "category": "order_of_operations",
+   "complexity_level": 6,
+   "task": "A dataset starts with 10,000 records. First, 20% are removed for quality control. Then 25% of the remaining records are sampled for manual review. Finally, 10% of the reviewed records are found to contain errors and are excluded. How many reviewed records remain after the final exclusion?",
+   "expected_answer": 1800,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Follow a three-stage dependent transformation."
+  },
+  {
+   "task_id": "A7_11",
+   "category": "evidence_consistency",
+   "complexity_level": 6,
+   "task": "A report states that a model achieved 90% accuracy on 2,000 cases and made 1,700 correct predictions. Another report states that the same evaluation had 1,800 correct predictions. Determine which numerical claim is consistent with the stated accuracy and dataset size.",
+   "expected_answer": {
+    "consistent_correct_count": 1800,
+    "inconsistent_count": 1700
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "compare_values"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "compare_values"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Check consistency between a rate and its implied absolute count."
+  },
+  {
+   "task_id": "A7_12",
+   "category": "underdetermined_reasoning",
+   "complexity_level": 6,
+   "task": "A company reports that the average accuracy of two datasets was 85%. Dataset A had 1,000 cases with 80% accuracy. Dataset B had unknown size and unknown accuracy. Determine whether Dataset B's accuracy can be uniquely determined from the available information.",
+   "expected_answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "cannot be determined from the information",
+    "cannot be determined from the available information",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine"
+   ],
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Recognize that an aggregate average does not uniquely identify an unknown subgroup."
+  }
+ ],
+ "adversarial_pilot_tasks": [
+  {
+   "task_id": "A7_03",
+   "category": "weighted_average",
+   "complexity_level": 5,
+   "task": "Dataset A contains 100 cases with 90% accuracy. Dataset B contains 900 cases with 70% accuracy. A report calculates the combined accuracy as the simple average of 90% and 70%. Determine the actual combined accuracy and whether the report is correct.",
+   "expected_answer": {
+    "combined_accuracy": 72,
+    "report": "Incorrect"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "divide"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Expose simple-average versus weighted-average reasoning."
+  },
+  {
+   "task_id": "A7_12",
+   "category": "underdetermined_reasoning",
+   "complexity_level": 6,
+   "task": "A company reports that the average accuracy of two datasets was 85%. Dataset A had 1,000 cases with 80% accuracy. Dataset B had unknown size and unknown accuracy. Determine whether Dataset B's accuracy can be uniquely determined from the available information.",
+   "expected_answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "cannot be determined from the information",
+    "cannot be determined from the available information",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine"
+   ],
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Recognize that an aggregate average does not uniquely identify an unknown subgroup."
+  }
+ ],
+ "FINAL_ADVERSARIAL_TASKS": [
+  {
+   "task_id": "A7_01",
+   "category": "percentage_semantics",
+   "complexity_level": 4,
+   "task": "A system's accuracy improves from 72% to 81%. A report says the system improved by 12.5 percentage points. Another report says it improved by 9 percentage points. Determine the correct absolute improvement in percentage points and the relative percentage improvement.",
+   "expected_answer": {
+    "percentage_point_improvement": 9,
+    "relative_improvement": 12.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "subtract",
+    "divide",
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "subtract",
+     "calculate_percentage"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Distinguish percentage-point change from relative percentage change."
+  },
+  {
+   "task_id": "A7_02",
+   "category": "sequential_percentage",
+   "complexity_level": 4,
+   "task": "A service costs $1,000. Its price is increased by 20% and then discounted by 20%. A report claims the final price returns to $1,000. Determine the actual final price and state whether the report is correct.",
+   "expected_answer": {
+    "final_price": 960,
+    "report": "Incorrect"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Test order-dependent percentage changes."
+  },
+  {
+   "task_id": "A7_03",
+   "category": "weighted_average",
+   "complexity_level": 5,
+   "task": "Dataset A contains 100 cases with 90% accuracy. Dataset B contains 900 cases with 70% accuracy. A report calculates the combined accuracy as the simple average of 90% and 70%. Determine the actual combined accuracy and whether the report is correct.",
+   "expected_answer": {
+    "combined_accuracy": 72,
+    "report": "Incorrect"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "add",
+    "divide"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "add",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Expose simple-average versus weighted-average reasoning."
+  },
+  {
+   "task_id": "A7_04",
+   "category": "irrelevant_information",
+   "complexity_level": 5,
+   "task": "A model processes 2,000 records. It correctly classifies 1,760. The development team has 12 members, the training dataset contains 5,000 records, and the system runs on 4 GPUs. What is the model's classification accuracy?",
+   "expected_answer": 88,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "divide",
+     "multiply"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Identify relevant evidence while ignoring plausible distractors."
+  },
+  {
+   "task_id": "A7_05",
+   "category": "insufficient_information",
+   "complexity_level": 5,
+   "task": "Model A achieved 94% accuracy and Model B achieved 91% accuracy. The number of test cases for either model is not provided. Can we determine which model made more correct predictions?",
+   "expected_answer": "Cannot be determined",
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Recognize that accuracy alone does not determine raw correct counts."
+  },
+  {
+   "task_id": "A7_06",
+   "category": "conditional_reasoning",
+   "complexity_level": 6,
+   "task": "A system processed 8,000 requests. It initially rejects 12% of them. A recovery process successfully restores 25% of the rejected requests. The remaining rejected requests are permanently lost. How many requests are successfully processed in total?",
+   "expected_answer": 7280,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Follow a dependent recovery branch rather than treating percentages independently."
+  },
+  {
+   "task_id": "A7_07",
+   "category": "conflicting_claims",
+   "complexity_level": 6,
+   "task": "A company has revenue of $120,000 and operating costs of $90,000. After an improvement, revenue increases by 15% while costs increase by 10%. Report A claims profit increases by exactly 20%. Report B claims profit increases by 30%. Calculate the new profit, the actual percentage increase in profit, and identify the correct report.",
+   "expected_answer": {
+    "new_profit": 39000,
+    "profit_increase": 30,
+    "report": "Report B"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add",
+     "subtract",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Resolve competing profit-growth claims after asymmetric revenue and cost changes."
+  },
+  {
+   "task_id": "A7_08",
+   "category": "ranking_criterion",
+   "complexity_level": 6,
+   "task": "Three models have accuracy and latency values:\nModel A: 92% accuracy, 180 ms latency.\nModel B: 89% accuracy, 120 ms latency.\nModel C: 91% accuracy, 150 ms latency.\nThe deployment rule requires accuracy of at least 90% AND latency below 160 ms. Which model or models satisfy the rule, and which satisfying model has the highest accuracy?",
+   "expected_answer": {
+    "qualifying_models": "Model C",
+    "best_model": "Model C"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "compare_values",
+    "find_max"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "find_max",
+     "compare_values"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Apply a conjunction of constraints before ranking candidates."
+  },
+  {
+   "task_id": "A7_09",
+   "category": "anomaly_detection",
+   "complexity_level": 6,
+   "task": "Five response times are 100 ms, 105 ms, 110 ms, 115 ms, and 300 ms. A report says the average response time represents normal system performance. Calculate the average and determine whether removing the single largest observation would reduce the average by more than 30 ms.",
+   "expected_answer": {
+    "original_average": 146,
+    "average_without_max": 107.5,
+    "reduction": 38.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Test sensitivity of an aggregate to an extreme observation."
+  },
+  {
+   "task_id": "A7_10",
+   "category": "order_of_operations",
+   "complexity_level": 6,
+   "task": "A dataset starts with 10,000 records. First, 20% are removed for quality control. Then 25% of the remaining records are sampled for manual review. Finally, 10% of the reviewed records are found to contain errors and are excluded. How many reviewed records remain after the final exclusion?",
+   "expected_answer": 1800,
+   "evaluator_type": "numeric",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Follow a three-stage dependent transformation."
+  },
+  {
+   "task_id": "A7_11",
+   "category": "evidence_consistency",
+   "complexity_level": 6,
+   "task": "A report states that a model achieved 90% accuracy on 2,000 cases and made 1,700 correct predictions. Another report states that the same evaluation had 1,800 correct predictions. Determine which numerical claim is consistent with the stated accuracy and dataset size.",
+   "expected_answer": {
+    "consistent_correct_count": 1800,
+    "inconsistent_count": 1700
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "compare_values"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "calculate_percentage",
+     "compare_values"
+    ]
+   ],
+   "tests_error_detection": true,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Check consistency between a rate and its implied absolute count."
+  },
+  {
+   "task_id": "A7_12",
+   "category": "underdetermined_reasoning",
+   "complexity_level": 6,
+   "task": "A company reports that the average accuracy of two datasets was 85%. Dataset A had 1,000 cases with 80% accuracy. Dataset B had unknown size and unknown accuracy. Determine whether Dataset B's accuracy can be uniquely determined from the available information.",
+   "expected_answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "cannot be determined from the information",
+    "cannot be determined from the available information",
+    "not enough information",
+    "insufficient information",
+    "impossible to determine",
+    "cannot determine"
+   ],
+   "evaluator_type": "text",
+   "requires_tool": true,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Recognize that an aggregate average does not uniquely identify an unknown subgroup."
+  }
+ ],
+ "replication_tasks": [
+  {
+   "task_id": "A7_05",
+   "category": "insufficient_information",
+   "complexity_level": 5,
+   "task": "Model A achieved 94% accuracy and Model B achieved 91% accuracy. The number of test cases for either model is not provided. Can we determine which model made more correct predictions?",
+   "expected_answer": [
+    "cannot determine which model made more correct predictions",
+    "cannot be determined which model made more correct predictions",
+    "not possible to determine which model made more correct predictions",
+    "impossible to determine which model made more correct predictions",
+    "cannot know which model made more correct predictions",
+    "insufficient information to determine which model made more correct predictions"
+   ],
+   "evaluator_type": "text",
+   "requires_tool": false,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": false,
+   "description": "Recognize that accuracy alone does not determine raw correct counts."
+  },
+  {
+   "task_id": "A7_07",
+   "category": "conflicting_claims",
+   "complexity_level": 6,
+   "task": "A company has revenue of $120,000 and operating costs of $90,000. After an improvement, revenue increases by 15% while costs increase by 10%. Report A claims profit increases by exactly 20%. Report B claims profit increases by 30%. Calculate the new profit, the actual percentage increase in profit, and identify the correct report.",
+   "expected_answer": {
+    "new_profit": 39000,
+    "profit_increase": 30,
+    "report": "Report B"
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "multiply",
+    "subtract",
+    "calculate_percentage"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "multiply",
+     "add",
+     "subtract",
+     "divide"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": true,
+   "requires_decomposition": true,
+   "description": "Resolve competing profit-growth claims after asymmetric revenue and cost changes."
+  },
+  {
+   "task_id": "A7_09",
+   "category": "anomaly_detection",
+   "complexity_level": 6,
+   "task": "Five response times are 100 ms, 105 ms, 110 ms, 115 ms, and 300 ms. A report says the average response time represents normal system performance. Calculate the average and determine whether removing the single largest observation would reduce the average by more than 30 ms.",
+   "expected_answer": {
+    "original_average": 146,
+    "average_without_max": 107.5,
+    "reduction": 38.5
+   },
+   "evaluator_type": "structured",
+   "requires_tool": true,
+   "expected_tools": [
+    "calculate_average",
+    "find_max",
+    "subtract"
+   ],
+   "acceptable_tool_sets": [
+    [
+     "sum_values",
+     "divide",
+     "find_max",
+     "subtract"
+    ]
+   ],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Test sensitivity of an aggregate to an extreme observation."
+  },
+  {
+   "task_id": "A7_12",
+   "category": "underdetermined_reasoning",
+   "complexity_level": 6,
+   "task": "A company reports that the average accuracy of two datasets was 85%. Dataset A had 1,000 cases with 80% accuracy. Dataset B had unknown size and unknown accuracy. Determine whether Dataset B's accuracy can be uniquely determined from the available information.",
+   "expected_answer": [
+    "cannot be determined",
+    "cannot be uniquely determined",
+    "insufficient information",
+    "not enough information",
+    "impossible to determine"
+   ],
+   "evaluator_type": "text",
+   "requires_tool": false,
+   "expected_tools": [],
+   "acceptable_tool_sets": [],
+   "tests_error_detection": false,
+   "tests_error_recovery": false,
+   "contains_conflicting_information": false,
+   "requires_decomposition": true,
+   "description": "Recognize that an aggregate average does not uniquely identify an unknown subgroup."
+  }
+ ]
+}
